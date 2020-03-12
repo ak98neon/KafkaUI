@@ -4,9 +4,12 @@
     <title>Kafka Web Producer</title>
 </head>
 <body>
-<form enctype="multipart/form-data" action="/produce/file" method="post">
+<form enctype="multipart/form-data" action="/produce/file" method="post" style="display: flex; flex-direction: column;">
     <input type="file" name="file"/>
-    <input type="hidden" name="token" value="{{.}}"/>
+    <label for="count">
+        Count:
+        <input id="count" type="text" name="count"/>
+    </label>
     <input type="submit" value="upload"/>
 </form>
 </body>

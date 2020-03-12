@@ -5,6 +5,7 @@ import (
 	"html/template"
 	"log"
 	"net/http"
+	"strconv"
 )
 
 func CommandPage(writer http.ResponseWriter, request *http.Request) {
@@ -26,13 +27,23 @@ func ProduceFile(writer http.ResponseWriter, request *http.Request) {
 	}
 
 	file, _, err := request.FormFile("file")
-	if err != nil {
-		log.Println(err)
-	}
+	checkError(err)
 
 	defer file.Close()
 
-	kafka.ProduceMessage(file)
+	err = request.ParseForm()
+	checkError(err)
 
+	countValue := request.PostFormValue("count")
+	parseInt, err := strconv.ParseInt(countValue, 10, 64)
+	checkError(err)
+
+	kafka.ProduceMessage(file, int(parseInt))
 	http.Redirect(writer, request, "/", http.StatusSeeOther)
+}
+
+func checkError(err error) {
+	if err != nil {
+		log.Println(err)
+	}
 }

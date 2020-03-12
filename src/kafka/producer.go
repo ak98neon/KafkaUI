@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-func ProduceMessage(file multipart.File) {
+func ProduceMessage(file multipart.File, count int) {
 	config := sarama.NewConfig()
 	config.Version = sarama.V0_11_0_2
 	config.Producer.RequiredAcks = sarama.WaitForAll
@@ -61,7 +61,7 @@ func ProduceMessage(file multipart.File) {
 		},
 	}
 
-	for i := 0; i < 1; i++ {
+	for i := 0; i < count; i++ {
 		partition, offset, err := producer.SendMessage(msg)
 		if err != nil {
 			panic(err)
