@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <title>Kafka Web Producer</title>
+    <link rel="stylesheet" href="../../static/css/main.css">
 </head>
 <body>
-<form enctype="multipart/form-data" action="/produce/file" method="post" style="display: flex; flex-direction: column;">
+<form id="producer-form" enctype="multipart/form-data" action="/produce/file" method="post">
     <input type="file" name="file"/>
     <label for="count">
         Count:

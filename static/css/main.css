@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
+#producer-form {
+    border-radius: 1.25rem !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    max-width: 200px;
+    background: #e0a944;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
