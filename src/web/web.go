@@ -36,7 +36,9 @@ func ProduceFile(writer http.ResponseWriter, request *http.Request) {
 
 	countValue := request.PostFormValue("count")
 	parseInt, err := strconv.ParseInt(countValue, 10, 64)
-	checkError(err)
+	if err != nil || parseInt <= 0 {
+		parseInt = 1
+	}
 
 	kafka.ProduceMessage(file, int(parseInt))
 	http.Redirect(writer, request, "/", http.StatusSeeOther)
