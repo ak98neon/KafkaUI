@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<input_data call_id="27122" company="brc" instance_id="ofsc-5dbb3b.test" subconfig="Bulk Routing"
+            vmajor="3" vminor="0" time_limit="864000" fitness_coeff_uniformity="1.00" dynamic_cut_intersect="0"
+            current_time="612" dynamic_cut_time="0" dynamic_cut_activities="0" eta_variation="10" recurrence_interval="0"
+            unacceptable_travel_time="1000" unacceptable_travel_distance="1609.34" optimization="1" use_street_level_routing="1"
+            default_center_point_radius="32180" fitness_coeff_sum_center_point_overstep="0.004"
+            provider_workday_stop_offset="0" assurance_still_limit="20%" keepalive_verbose="true">
+    <activity_data>
+        <activity activity_id="4425742" workday_id="0" workday_bind="1" sla_start="581" default_work_length="39" address="03b93be78151169a490862bcd3b145a6" activity_relevance_key="0" overdue_cost="25.00" non_assignment_cost="1500.00" loc_id="1" activity_work_length_key="1">
+        </activity>
+        <activity activity_id="4425743" workday_id="0" workday_bind="1" sla_start="581" default_work_length="39" address="ae1e13299e2f6c27a3f7c196a6a4badb" activity_relevance_key="0" overdue_cost="25.00" non_assignment_cost="1500.00" loc_id="2" activity_work_length_key="1">
+        </activity>
+        <activity activity_id="4425745" workday_id="0" workday_bind="1" sla_start="599" default_work_length="39" address="78c1cb3e200845152f8b8d2dba23bc6b" activity_relevance_key="0" overdue_cost="25.00" non_assignment_cost="1500.00" loc_id="3" activity_work_length_key="1">
+        </activity>
+    </activity_data>
+    <provider_data>
+        <provider provider_id="8101776" work_length_fallback_coeff="1.00" provider_type="PR" overtime_soft_cost="5.00" overtime_hard_cost="10.00" work_cost="8.00" travel_cost="12.00" waiting_cost="0.00" unacceptable_travel_time="1000" unacceptable_travel_distance="1609.34" provider_work_length_key="0">
+            <workday_arr>
+                <workday workday_id="0" workday_start="612" workday_end_soft="1080" workday_end_hard="1140" start_travel_in_workday="true" final_travel_in_workday="false" final_travel_in_stop_time="false" center_point_x="-81.273" center_point_y="28.798" center_point_radius="32180" provider_relevance_key="1" start_loc_id="4" final_loc_id="6"/>
+            </workday_arr>
+        </provider>
+        <provider provider_id="8101781" work_length_fallback_coeff="1.00" provider_type="PR" overtime_soft_cost="5.00" overtime_hard_cost="10.00" work_cost="8.00" travel_cost="12.00" waiting_cost="0.00" unacceptable_travel_time="1000" unacceptable_travel_distance="1609.34" provider_work_length_key="0">
+            <workday_arr>
+                <workday workday_id="0" workday_start="612" workday_end_soft="1080" workday_end_hard="1140" start_travel_in_workday="true" final_travel_in_workday="false" final_travel_in_stop_time="false" center_point_x="-81.273" center_point_y="28.798" center_point_radius="32180" provider_relevance_key="1" start_loc_id="5" final_loc_id="7"/>
+            </workday_arr>
+        </provider>
+    </provider_data>
+    <activity_link_data/>
+    <relevance_data>
+        <relevance provider_relevance_key="1" activity_relevance_key="0" cost="1.00"/>
+        <!-- Provider relevance mapping: 1 = pg(48,49)0 = pg(empty)
+             Activity relevance mapping: 0 = ag(65); -->
+    </relevance_data>
+    <travel_data>
+        <td f="6" t="4" s="112140" m="2047202" o="3"/>
+        <td f="7" t="5" s="112140" m="2047202" o="3"/>
+        <td f="2" t="1" s="216" m="1209" o="0"/>
+        <td f="5" t="7" s="76646" m="2409765" o="0"/>
+        <td f="2" t="3" s="168" m="970" o="0"/>
+        <td f="3" t="1" s="165" m="770" o="0"/>
+        <td f="1" t="7" s="1335" m="28750" o="0"/>
+        <td f="3" t="7" s="1419" m="28810" o="0"/>
+        <td f="4" t="6" s="76694" m="2408996" o="0"/>
+        <td f="4" t="3" s="1448" m="29283" o="0"/>
+        <td f="4" t="2" s="1435" m="29349" o="0"/>
+        <td f="2" t="7" s="1332" m="28706" o="0"/>
+        <td f="4" t="1" s="1431" m="29305" o="0"/>
+    </travel_data>
+    <work_length_data>
+        <wl a="1" l="39"/>
+    </work_length_data>
+
+    <request_context>
+        <context_data>
+
+        </context_data>
+    </request_context>
+
+</input_data>

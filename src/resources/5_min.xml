@@ -1,0 +1,814 @@
+<input_data call_id="186" company="mda-with-links" instance_id="mda-with-links" coord_avg_speed_kmph="25.00" coord_travel_time_add="0" coord_travel_time_weight="1.00" current_time="-29298" default_travel_time="10" dynamic_cut_activities="0" dynamic_cut_intersect="0" dynamic_cut_time="0" eta_variation="10" fitness_coeff_uniformity="0.00" optimization="1" provider_workday_stop_offset="30" recurrence_interval="0" subconfig="Test" time_limit="300" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" use_street_level_routing="0" vmajor="3" vminor="1">
+<activity_data>
+	<activity activity_id="48522" activity_relevance_key="0" activity_work_length_key="" address="Handelsv?gen|L?ddek?pinge||246 42||" bundle_key="handelsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.98355" y="55.77026" zone_id="246 4">
+	</activity>
+	<activity activity_id="48523" activity_relevance_key="0" activity_work_length_key="" address="L?rkv?gen|L?ddek?pinge||246 32||" bundle_key="l?rkv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.99572" y="55.75458" zone_id="246 3">
+	</activity>
+	<activity activity_id="48524" activity_relevance_key="0" activity_work_length_key="" address="Golfv?gen|L?ddek?pinge||246 55||" bundle_key="golfv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="660" x="12.94758" y="55.79168" zone_id="246 5">
+	</activity>
+	<activity activity_id="48525" activity_relevance_key="0" activity_work_length_key="" address="Barseb?cksv?gen|L?ddek?pinge||246 32||" bundle_key="barseb?cksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="3930" x="12.99159" y="55.76002" zone_id="246 3">
+	</activity>
+	<activity activity_id="48526" activity_relevance_key="0" activity_work_length_key="" address="Timotejv?gen|L?ddek?pinge||246 51||" bundle_key="timotejv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1800" x="12.97039" y="55.79836" zone_id="246 5">
+	</activity>
+	<activity activity_id="48527" activity_relevance_key="0" activity_work_length_key="" address="Vildsvinsv?gen|L?ddek?pinge||246 52||" bundle_key="vildsvinsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.96903" y="55.81375" zone_id="246 5">
+	</activity>
+	<activity activity_id="48530" activity_relevance_key="0" activity_work_length_key="" address="Silverv?gen|L?ddek?pinge||246 36||" bundle_key="silverv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="720" x="13.02744" y="55.76334" zone_id="246 3">
+	</activity>
+	<activity activity_id="48533" activity_relevance_key="0" activity_work_length_key="" address="Igelkottsv?gen|L?ddek?pinge||246 52||" bundle_key="igelkottsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.97892" y="55.81334" zone_id="246 5">
+	</activity>
+	<activity activity_id="48538" activity_relevance_key="0" activity_work_length_key="" address="B?verv?gen|L?ddek?pinge||246 52||" bundle_key="b?verv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="540" x="12.97507" y="55.80727" zone_id="246 5">
+	</activity>
+	<activity activity_id="48557" activity_relevance_key="0" activity_work_length_key="" address="Utterv?gen|L?ddek?pinge||246 52||" bundle_key="utterv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.97551" y="55.8073" zone_id="246 5">
+	</activity>
+	<activity activity_id="48570" activity_relevance_key="0" activity_work_length_key="" address="Stallm?starev?gen|L?ddek?pinge||246 50||" bundle_key="stallm?starev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.99528" y="55.79869" zone_id="246 5">
+	</activity>
+	<activity activity_id="48572" activity_relevance_key="0" activity_work_length_key="" address="Kamomillv?gen|L?ddek?pinge||246 51||" bundle_key="kamomillv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="450" x="12.97128" y="55.79854" zone_id="246 5">
+	</activity>
+	<activity activity_id="48573" activity_relevance_key="0" activity_work_length_key="" address="R?dr?vsv?gen|L?ddek?pinge||246 50||" bundle_key="r?dr?vsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="720" x="12.98365" y="55.81117" zone_id="246 5">
+	</activity>
+	<activity activity_id="48574" activity_relevance_key="0" activity_work_length_key="" address="Myntv?gen|L?ddek?pinge||246 36||" bundle_key="myntv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="13.02899" y="55.76361" zone_id="246 3">
+	</activity>
+	<activity activity_id="48575" activity_relevance_key="0" activity_work_length_key="" address="Hofterups Kyrkov?g|L?ddek?pinge||246 55||" bundle_key="hofterups kyrkov?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="570" x="12.97971" y="55.78865" zone_id="246 5">
+	</activity>
+	<activity activity_id="48576" activity_relevance_key="0" activity_work_length_key="" address="Kylanl Hofterup Kyrkv?g|L?ddek?pinge||246 55||" bundle_key="kylanl hofterup kyrk" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.98122" y="55.78894" zone_id="246 5">
+	</activity>
+	<activity activity_id="48577" activity_relevance_key="0" activity_work_length_key="" address="Torvladev?gen|L?ddek?pinge||246 51||" bundle_key="torvladev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.95938" y="55.79061" zone_id="246 5">
+	</activity>
+	<activity activity_id="48584" activity_relevance_key="0" activity_work_length_key="" address="Materialv?gen|L?ddek?pinge||246 43||" bundle_key="materialv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.99993" y="55.77409" zone_id="246 4">
+	</activity>
+	<activity activity_id="48587" activity_relevance_key="0" activity_work_length_key="" address="?ngsv?gen|L?ddek?pinge||246 32||" bundle_key="?ngsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.9826" y="55.76309" zone_id="246 3">
+	</activity>
+	<activity activity_id="48592" activity_relevance_key="0" activity_work_length_key="" address="Kopparv?gen|L?ddek?pinge||246 36||" bundle_key="kopparv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="870" x="13.02231" y="55.76345" zone_id="246 3">
+	</activity>
+	<activity activity_id="48621" activity_relevance_key="0" activity_work_length_key="" address="Davidslidsv?gen|L?ddek?pinge||246 52||" bundle_key="davidslidsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="12.96579" y="55.82221" zone_id="246 5">
+	</activity>
+	<activity activity_id="48622" activity_relevance_key="0" activity_work_length_key="" address="R?djursv?gen|L?ddek?pinge||246 52||" bundle_key="r?djursv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="600" x="12.97225" y="55.81273" zone_id="246 5">
+	</activity>
+	<activity activity_id="48623" activity_relevance_key="0" activity_work_length_key="" address="Byastugsv?gen|L?ddek?pinge||246 51||" bundle_key="byastugsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.97043" y="55.78799" zone_id="246 5">
+	</activity>
+	<activity activity_id="48625" activity_relevance_key="0" activity_work_length_key="" address="Kyrkov?gen|L?ddek?pinge||246 55||" bundle_key="kyrkov?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.98089" y="55.78955" zone_id="246 5">
+	</activity>
+	<activity activity_id="48628" activity_relevance_key="0" activity_work_length_key="" address="Chevallv?gen|L?ddek?pinge||246 50||" bundle_key="chevallv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.99507" y="55.80094" zone_id="246 5">
+	</activity>
+	<activity activity_id="48629" activity_relevance_key="0" activity_work_length_key="" address="Grand Prix v?gen|L?ddek?pinge||246 52||" bundle_key="grand prix v?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.9774" y="55.81341" zone_id="246 5">
+	</activity>
+	<activity activity_id="48630" activity_relevance_key="0" activity_work_length_key="" address="Mobilv?gen|L?ddek?pinge||246 43||" bundle_key="mobilv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.99831" y="55.77345" zone_id="246 4">
+	</activity>
+	<activity activity_id="48631" activity_relevance_key="0" activity_work_length_key="" address="Sommarlustv?gen|L?ddek?pinge||246 32||" bundle_key="sommarlustv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="510" x="12.98192" y="55.75994" zone_id="246 3">
+	</activity>
+	<activity activity_id="48633" activity_relevance_key="0" activity_work_length_key="" address="G?kblomsterv?gen|L?ddek?pinge||246 51||" bundle_key="g?kblomsterv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1110" x="12.97219" y="55.79638" zone_id="246 5">
+	</activity>
+	<activity activity_id="48634" activity_relevance_key="0" activity_work_length_key="" address="Lupinv?gen|L?ddek?pinge||246 50||" bundle_key="lupinv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2730" x="12.9786" y="55.79997" zone_id="246 5">
+	</activity>
+	<activity activity_id="48636" activity_relevance_key="0" activity_work_length_key="" address="Brittsommarv?gen|L?ddek?pinge||246 32||" bundle_key="brittsommarv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.98111" y="55.76319" zone_id="246 3">
+	</activity>
+	<activity activity_id="48637" activity_relevance_key="0" activity_work_length_key="" address="Edvin Anderssons v?g|L?ddek?pinge||246 31||" bundle_key="edvin anderssons v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2550" x="13.00574" y="55.75778" zone_id="246 3">
+	</activity>
+	<activity activity_id="48639" activity_relevance_key="0" activity_work_length_key="" address="Vikh?gsv?gen|L?ddek?pinge||246 31||" bundle_key="vikh?gsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="570" x="13.01451" y="55.7586" zone_id="246 3">
+	</activity>
+	<activity activity_id="48646" activity_relevance_key="0" activity_work_length_key="" address="Litorinav?gen|L?ddek?pinge||246 55||" bundle_key="litorinav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="3030" x="12.94834" y="55.79437" zone_id="246 5">
+	</activity>
+	<activity activity_id="48650" activity_relevance_key="0" activity_work_length_key="" address="Lekattsv?gen|L?ddek?pinge||246 50||" bundle_key="lekattsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.98033" y="55.81001" zone_id="246 5">
+	</activity>
+	<activity activity_id="48651" activity_relevance_key="0" activity_work_length_key="" address="G?nggriftsv?gen|L?ddek?pinge||246 33||" bundle_key="g?nggriftsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.99389" y="55.76462" zone_id="246 3">
+	</activity>
+	<activity activity_id="48652" activity_relevance_key="0" activity_work_length_key="" address="Transportv?gen|L?ddek?pinge||246 42||" bundle_key="transportv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="12.99872" y="55.76681" zone_id="246 4">
+	</activity>
+	<activity activity_id="48659" activity_relevance_key="0" activity_work_length_key="" address="Fjallers v?g|L?ddek?pinge||246 36||" bundle_key="fjallers v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="690" x="13.02177" y="55.76697" zone_id="246 3">
+	</activity>
+	<activity activity_id="48660" activity_relevance_key="0" activity_work_length_key="" address="Yrsas v?g|L?ddek?pinge||246 36||" bundle_key="yrsas v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="13.02226" y="55.76613" zone_id="246 3">
+	</activity>
+	<activity activity_id="48662" activity_relevance_key="0" activity_work_length_key="" address="Helgas v?g|L?ddek?pinge||246 36||" bundle_key="helgas v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="13.02333" y="55.7663" zone_id="246 3">
+	</activity>
+	<activity activity_id="48663" activity_relevance_key="0" activity_work_length_key="" address="Nattviolv?gen|L?ddek?pinge||246 51||" bundle_key="nattviolv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1530" x="12.9785" y="55.79705" zone_id="246 5">
+	</activity>
+	<activity activity_id="48664" activity_relevance_key="0" activity_work_length_key="" address="Kumlev?gen|L?ddek?pinge||246 32||" bundle_key="kumlev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="570" x="12.97786" y="55.76077" zone_id="246 3">
+	</activity>
+	<activity activity_id="48670" activity_relevance_key="0" activity_work_length_key="" address="Centrumv?gen|L?ddek?pinge||246 30||" bundle_key="centrumv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1830" x="13.00825" y="55.7595" zone_id="246 3">
+	</activity>
+	<activity activity_id="48712" activity_relevance_key="0" activity_work_length_key="" address="Pr?stv?gen|L?ddek?pinge||246 30||" bundle_key="pr?stv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1830" x="13.01498" y="55.76179" zone_id="246 3">
+	</activity>
+	<activity activity_id="48717" activity_relevance_key="0" activity_work_length_key="" address="Sk?nadalv?gen|L?ddek?pinge||246 51||" bundle_key="sk?nadalv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="690" x="12.96851" y="55.79807" zone_id="246 5">
+	</activity>
+	<activity activity_id="48726" activity_relevance_key="0" activity_work_length_key="" address="Piruettv?gen|L?ddek?pinge||246 50||" bundle_key="piruettv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.98347" y="55.80037" zone_id="246 5">
+	</activity>
+	<activity activity_id="48732" activity_relevance_key="0" activity_work_length_key="" address="J?rnv?gen|L?ddek?pinge||246 36||" bundle_key="j?rnv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="900" x="13.02438" y="55.76544" zone_id="246 3">
+	</activity>
+	<activity activity_id="48743" activity_relevance_key="0" activity_work_length_key="" address="Metallv?gen|L?ddek?pinge||246 36||" bundle_key="metallv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="13.02474" y="55.76505" zone_id="246 3">
+	</activity>
+	<activity activity_id="48752" activity_relevance_key="0" activity_work_length_key="" address="Brov?gen|L?ddek?pinge||246 32||" bundle_key="brov?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.98436" y="55.7638" zone_id="246 3">
+	</activity>
+	<activity activity_id="48753" activity_relevance_key="0" activity_work_length_key="" address="Fjallersv?g|L?ddek?pinge||246 36||" bundle_key="fjallersv?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="13.02363" y="55.76693" zone_id="246 3">
+	</activity>
+	<activity activity_id="48766" activity_relevance_key="0" activity_work_length_key="" address="Storkv?gen|L?ddek?pinge||246 30||" bundle_key="storkv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="750" x="13.00646" y="55.7583" zone_id="246 3">
+	</activity>
+	<activity activity_id="48794" activity_relevance_key="0" activity_work_length_key="" address="R?karev?gen|L?ddek?pinge||246 32||" bundle_key="r?karev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1020" x="12.97855" y="55.76261" zone_id="246 3">
+	</activity>
+	<activity activity_id="48814" activity_relevance_key="0" activity_work_length_key="" address="Tr?v?gen|L?ddek?pinge||246 36||" bundle_key="tr?v?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="13.02663" y="55.7651" zone_id="246 3">
+	</activity>
+	<activity activity_id="48816" activity_relevance_key="0" activity_work_length_key="" address="S?derparkv?gen|L?ddek?pinge||246 36||" bundle_key="s?derparkv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="13.02689" y="55.76514" zone_id="246 3">
+	</activity>
+	<activity activity_id="48828" activity_relevance_key="0" activity_work_length_key="" address="Roteringv?gen|L?ddek?pinge||246 35||" bundle_key="roteringv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="7380" x="13.01725" y="55.76007" zone_id="246 3">
+	</activity>
+	<activity activity_id="48830" activity_relevance_key="0" activity_work_length_key="" address="GB Sommarlustv?gen|L?ddek?pinge||246 32||" bundle_key="gb sommarlustv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.9816" y="55.75951" zone_id="246 3">
+	</activity>
+	<activity activity_id="48834" activity_relevance_key="0" activity_work_length_key="" address="Albatrossv?gen|L?ddek?pinge||246 55||" bundle_key="albatrossv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="570" x="12.95145" y="55.78891" zone_id="246 5">
+	</activity>
+	<activity activity_id="48841" activity_relevance_key="0" activity_work_length_key="" address="Albatrosv?gen|L?ddek?pinge||246 55||" bundle_key="albatrosv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.95194" y="55.78928" zone_id="246 5">
+	</activity>
+	<activity activity_id="48843" activity_relevance_key="0" activity_work_length_key="" address="M?rdv?gen|L?ddek?pinge||246 50||" bundle_key="m?rdv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="600" x="12.97972" y="55.81039" zone_id="246 5">
+	</activity>
+	<activity activity_id="48845" activity_relevance_key="0" activity_work_length_key="" address="Malm?v?gen|L?ddek?pinge||246 31||" bundle_key="malm?v?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="780" x="13.01801" y="55.75744" zone_id="246 3">
+	</activity>
+	<activity activity_id="48851" activity_relevance_key="0" activity_work_length_key="" address="Per Tolvas v?g|L?ddek?pinge||246 30||" bundle_key="per tolvas v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1260" x="13.01248" y="55.7599" zone_id="246 3">
+	</activity>
+	<activity activity_id="48854" activity_relevance_key="0" activity_work_length_key="" address="G?kv?gen|L?ddek?pinge||246 32||" bundle_key="g?kv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="12.99287" y="55.7517" zone_id="246 3">
+	</activity>
+	<activity activity_id="48857" activity_relevance_key="0" activity_work_length_key="" address="Odalv?gen|L?ddek?pinge||246 30||" bundle_key="odalv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.00945" y="55.75842" zone_id="246 3">
+	</activity>
+	<activity activity_id="48865" activity_relevance_key="0" activity_work_length_key="" address="Domsagogr?nd|L?ddek?pinge||246 30||" bundle_key="domsagogr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.01046" y="55.76185" zone_id="246 3">
+	</activity>
+	<activity activity_id="48872" activity_relevance_key="0" activity_work_length_key="" address="Lagmansgr?nd|L?ddek?pinge||246 30||" bundle_key="lagmansgr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="13.01151" y="55.76193" zone_id="246 3">
+	</activity>
+	<activity activity_id="48896" activity_relevance_key="0" activity_work_length_key="" address="Teknikv?gen|L?ddek?pinge||246 43||" bundle_key="teknikv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="480" x="12.99934" y="55.76688" zone_id="246 4">
+	</activity>
+	<activity activity_id="48897" activity_relevance_key="0" activity_work_length_key="" address="Gr?vlingsv?gen|L?ddek?pinge||246 52||" bundle_key="gr?vlingsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="660" x="12.96974" y="55.81619" zone_id="246 5">
+	</activity>
+	<activity activity_id="48898" activity_relevance_key="0" activity_work_length_key="" address="Eddav?gen|L?ddek?pinge||246 31||" bundle_key="eddav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.99957" y="55.75647" zone_id="246 3">
+	</activity>
+	<activity activity_id="48899" activity_relevance_key="0" activity_work_length_key="" address="P?lsav?gen|L?ddek?pinge||246 35||" bundle_key="p?lsav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="13.01832" y="55.75977" zone_id="246 3">
+	</activity>
+	<activity activity_id="48900" activity_relevance_key="0" activity_work_length_key="" address="K?mn?rsgr?nd|L?ddek?pinge||246 35||" bundle_key="k?mn?rsgr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="810" x="13.01573" y="55.76012" zone_id="246 3">
+	</activity>
+	<activity activity_id="48929" activity_relevance_key="0" activity_work_length_key="" address="Marknadsv?gen|L?ddek?pinge||246 42||" bundle_key="marknadsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1470" x="12.99099" y="55.77131" zone_id="246 4">
+	</activity>
+	<activity activity_id="48930" activity_relevance_key="0" activity_work_length_key="" address="Hedblometerv?gen|L?ddek?pinge||246 50||" bundle_key="hedblometerv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.99158" y="55.79533" zone_id="246 5">
+	</activity>
+	<activity activity_id="48931" activity_relevance_key="0" activity_work_length_key="" address="Platinav?gen|L?ddek?pinge||246 36||" bundle_key="platinav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="13.02634" y="55.76683" zone_id="246 3">
+	</activity>
+	<activity activity_id="48932" activity_relevance_key="0" activity_work_length_key="" address="S?derparksv?gen|L?ddek?pinge||246 36||" bundle_key="s?derparksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.02676" y="55.76544" zone_id="246 3">
+	</activity>
+	<activity activity_id="48934" activity_relevance_key="0" activity_work_length_key="" address="Bronsv?gen|L?ddek?pinge||246 36||" bundle_key="bronsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="13.02752" y="55.76523" zone_id="246 3">
+	</activity>
+	<activity activity_id="48940" activity_relevance_key="0" activity_work_length_key="" address="Profilv?gen|L?ddek?pinge||246 43||" bundle_key="profilv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="13.0039" y="55.77158" zone_id="246 4">
+	</activity>
+	<activity activity_id="48942" activity_relevance_key="0" activity_work_length_key="" address="N?mndemansv?gen|L?ddek?pinge||246 30||" bundle_key="n?mndemansv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="450" x="13.01364" y="55.7613" zone_id="246 3">
+	</activity>
+	<activity activity_id="48943" activity_relevance_key="0" activity_work_length_key="" address="Vitsippev?gen|L?ddek?pinge||246 50||" bundle_key="vitsippev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.9911" y="55.79525" zone_id="246 5">
+	</activity>
+	<activity activity_id="48944" activity_relevance_key="0" activity_work_length_key="" address="Hedblomsterv?gen|L?ddek?pinge||246 50||" bundle_key="hedblomsterv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.99134" y="55.79558" zone_id="246 5">
+	</activity>
+	<activity activity_id="48954" activity_relevance_key="0" activity_work_length_key="" address="M?ssingv?gen|L?ddek?pinge||246 36||" bundle_key="m?ssingv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="13.02597" y="55.76575" zone_id="246 3">
+	</activity>
+	<activity activity_id="48959" activity_relevance_key="0" activity_work_length_key="" address="Murarev?gen|L?ddek?pinge||246 33||" bundle_key="murarev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="540" x="13.00451" y="55.75824" zone_id="246 3">
+	</activity>
+	<activity activity_id="48962" activity_relevance_key="0" activity_work_length_key="" address="M?ssingev?gen|L?ddek?pinge||246 36||" bundle_key="m?ssingev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.02668" y="55.76602" zone_id="246 3">
+	</activity>
+	<activity activity_id="48968" activity_relevance_key="0" activity_work_length_key="" address="Ellek?rrsv?gen|L?ddek?pinge||246 32||" bundle_key="ellek?rrsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="12.98326" y="55.76454" zone_id="246 3">
+	</activity>
+	<activity activity_id="48978" activity_relevance_key="0" activity_work_length_key="" address="Sommarbov?gen|L?ddek?pinge||246 32||" bundle_key="sommarbov?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="720" x="12.98142" y="55.76049" zone_id="246 3">
+	</activity>
+	<activity activity_id="48979" activity_relevance_key="0" activity_work_length_key="" address="GB Villebr?dsv?gen|L?ddek?pinge||246 50||" bundle_key="gb villebr?dsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.98082" y="55.81212" zone_id="246 5">
+	</activity>
+	<activity activity_id="48981" activity_relevance_key="0" activity_work_length_key="" address="Notariev?gen|L?ddek?pinge||246 30||" bundle_key="notariev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2970" x="13.01056" y="55.76119" zone_id="246 3">
+	</activity>
+	<activity activity_id="49066" activity_relevance_key="0" activity_work_length_key="" address="Storeg?rdsv?gen|L?ddek?pinge||246 55||" bundle_key="storeg?rdsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.00443" y="55.77932" zone_id="246 5">
+	</activity>
+	<activity activity_id="49068" activity_relevance_key="0" activity_work_length_key="" address="Guldv?gen|L?ddek?pinge||246 36||" bundle_key="guldv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="13.02554" y="55.76587" zone_id="246 3">
+	</activity>
+	<activity activity_id="49076" activity_relevance_key="0" activity_work_length_key="" address="Hasselmusv?gen|L?ddek?pinge||246 52||" bundle_key="hasselmusv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.96352" y="55.81715" zone_id="246 5">
+	</activity>
+	<activity activity_id="49087" activity_relevance_key="0" activity_work_length_key="" address="Aledalsv?gen|L?ddek?pinge||246 52||" bundle_key="aledalsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.97715" y="55.82212" zone_id="246 5">
+	</activity>
+	<activity activity_id="49095" activity_relevance_key="0" activity_work_length_key="" address="GB Gr?vlingsv?gen Hofterup|L?ddek?pinge||246 52||" bundle_key="gb gr?vlingsv?gen ho" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.97001" y="55.81577" zone_id="246 5">
+	</activity>
+	<activity activity_id="49097" activity_relevance_key="0" activity_work_length_key="" address="Sval?rtv?gen|L?ddek?pinge||246 50||" bundle_key="sval?rtv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2220" x="12.98295" y="55.79606" zone_id="246 5">
+	</activity>
+	<activity activity_id="49100" activity_relevance_key="0" activity_work_length_key="" address="GB Vitsippev?gen|L?ddek?pinge||246 50||" bundle_key="gb vitsippev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.99102" y="55.79536" zone_id="246 5">
+	</activity>
+	<activity activity_id="49108" activity_relevance_key="0" activity_work_length_key="" address="Dressyrv?gen|L?ddek?pinge||246 50||" bundle_key="dressyrv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="12.992" y="55.79941" zone_id="246 5">
+	</activity>
+	<activity activity_id="49113" activity_relevance_key="0" activity_work_length_key="" address="Pump V?ngav?gen|L?ddek?pinge||246 31||" bundle_key="pump v?ngav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.01494" y="55.75437" zone_id="246 3">
+	</activity>
+	<activity activity_id="49117" activity_relevance_key="0" activity_work_length_key="" address="Kandarv?gen|L?ddek?pinge||246 50||" bundle_key="kandarv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.99244" y="55.7989" zone_id="246 5">
+	</activity>
+	<activity activity_id="49121" activity_relevance_key="0" activity_work_length_key="" address="?ppelbacken|L?ddek?pinge||246 31||" bundle_key="?ppelbacken" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="510" x="13.01414" y="55.75771" zone_id="246 3">
+	</activity>
+	<activity activity_id="49139" activity_relevance_key="0" activity_work_length_key="" address="GB Passagev?gen|L?ddek?pinge||246 50||" bundle_key="gb passagev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.99097" y="55.79954" zone_id="246 5">
+	</activity>
+	<activity activity_id="49140" activity_relevance_key="0" activity_work_length_key="" address="Strandskatev?gen|L?ddek?pinge||246 55||" bundle_key="strandskatev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.95501" y="55.79464" zone_id="246 5">
+	</activity>
+	<activity activity_id="49141" activity_relevance_key="0" activity_work_length_key="" address="Marb?cksv?gen|L?ddek?pinge||246 32||" bundle_key="marb?cksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.98707" y="55.76161" zone_id="246 3">
+	</activity>
+	<activity activity_id="49142" activity_relevance_key="0" activity_work_length_key="" address="Snickarev?gen|L?ddek?pinge||246 33||" bundle_key="snickarev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="630" x="13.00028" y="55.7589" zone_id="246 3">
+	</activity>
+	<activity activity_id="49144" activity_relevance_key="0" activity_work_length_key="" address="Lund?krav?gen|L?ddek?pinge||246 51||" bundle_key="lund?krav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="720" x="12.97026" y="55.79365" zone_id="246 5">
+	</activity>
+	<activity activity_id="49145" activity_relevance_key="0" activity_work_length_key="" address="Idrottsv?gen|L?ddek?pinge||246 30||" bundle_key="idrottsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="690" x="13.01217" y="55.76078" zone_id="246 3">
+	</activity>
+	<activity activity_id="49163" activity_relevance_key="0" activity_work_length_key="" address="Cavalettiv?gen|L?ddek?pinge||246 50||" bundle_key="cavalettiv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.9917" y="55.79856" zone_id="246 5">
+	</activity>
+	<activity activity_id="49171" activity_relevance_key="0" activity_work_length_key="" address="Fl?derv?gen|L?ddek?pinge||246 51||" bundle_key="fl?derv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.97382" y="55.79312" zone_id="246 5">
+	</activity>
+	<activity activity_id="49217" activity_relevance_key="0" activity_work_length_key="" address="Cavalettv?gen|L?ddek?pinge||246 50||" bundle_key="cavalettv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.99124" y="55.79895" zone_id="246 5">
+	</activity>
+	<activity activity_id="49218" activity_relevance_key="0" activity_work_length_key="" address="F?driftsv?gen|L?ddek?pinge||246 52||" bundle_key="f?driftsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.97264" y="55.82028" zone_id="246 5">
+	</activity>
+	<activity activity_id="49225" activity_relevance_key="0" activity_work_length_key="" address="Sandskogsv?gen|L?ddek?pinge||246 32||" bundle_key="sandskogsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="450" x="12.98554" y="55.76127" zone_id="246 3">
+	</activity>
+	<activity activity_id="49226" activity_relevance_key="0" activity_work_length_key="" address="Havssulev?gen|L?ddek?pinge||246 55||" bundle_key="havssulev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.9524" y="55.79507" zone_id="246 5">
+	</activity>
+	<activity activity_id="49230" activity_relevance_key="0" activity_work_length_key="" address="Kanotstigen|L?ddek?pinge||246 52||" bundle_key="kanotstigen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.94377" y="55.82579" zone_id="246 5">
+	</activity>
+	<activity activity_id="49234" activity_relevance_key="0" activity_work_length_key="" address="Rotundan|L?ddek?pinge||246 50||" bundle_key="rotundan" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1260" x="12.98711" y="55.80066" zone_id="246 5">
+	</activity>
+	<activity activity_id="49235" activity_relevance_key="0" activity_work_length_key="" address="Vikh?gs byav?g|L?ddek?pinge||246 32||" bundle_key="vikh?gs byav?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="12.95918" y="55.73054" zone_id="246 3">
+	</activity>
+	<activity activity_id="49237" activity_relevance_key="0" activity_work_length_key="" address="Saltviksv?gen|L?ddek?pinge||246 32||" bundle_key="saltviksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="720" x="12.98203" y="55.75949" zone_id="246 3">
+	</activity>
+	<activity activity_id="49238" activity_relevance_key="0" activity_work_length_key="" address="?dalsv?gen|L?ddek?pinge||246 35||" bundle_key="?dalsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="13.01788" y="55.75857" zone_id="246 3">
+	</activity>
+	<activity activity_id="49242" activity_relevance_key="0" activity_work_length_key="" address="Produktv?gen|L?ddek?pinge||246 43||" bundle_key="produktv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="840" x="12.99968" y="55.7702" zone_id="246 4">
+	</activity>
+	<activity activity_id="49248" activity_relevance_key="0" activity_work_length_key="" address="Kunskapsv?gen|L?ddek?pinge||246 43||" bundle_key="kunskapsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.01169" y="55.76764" zone_id="246 4">
+	</activity>
+	<activity activity_id="49249" activity_relevance_key="0" activity_work_length_key="" address="Landskronav?gen|L?ddek?pinge||246 55||" bundle_key="landskronav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1410" x="13.00485" y="55.7868" zone_id="246 5">
+	</activity>
+	<activity activity_id="49256" activity_relevance_key="0" activity_work_length_key="" address="T?rnv?gen|L?ddek?pinge||246 55||" bundle_key="t?rnv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.95431" y="55.79318" zone_id="246 5">
+	</activity>
+	<activity activity_id="49261" activity_relevance_key="0" activity_work_length_key="" address="Stormf?gelv?gen|L?ddek?pinge||246 55||" bundle_key="stormf?gelv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.95367" y="55.79516" zone_id="246 5">
+	</activity>
+	<activity activity_id="49263" activity_relevance_key="0" activity_work_length_key="" address="L?ddesborgsgatan|L?ddek?pinge||246 32||" bundle_key="l?ddesborgsgatan" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.96419" y="55.74681" zone_id="246 3">
+	</activity>
+	<activity activity_id="49268" activity_relevance_key="0" activity_work_length_key="" address="Grandprixv?gen|L?ddek?pinge||246 50||" bundle_key="grandprixv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.98852" y="55.80072" zone_id="246 5">
+	</activity>
+	<activity activity_id="49269" activity_relevance_key="0" activity_work_length_key="" address="Kl?verv?gen|L?ddek?pinge||246 50||" bundle_key="kl?verv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1560" x="12.98751" y="55.7976" zone_id="246 5">
+	</activity>
+	<activity activity_id="49270" activity_relevance_key="0" activity_work_length_key="" address="Sportv?gen|L?ddek?pinge||246 52||" bundle_key="sportv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1140" x="12.9443" y="55.82579" zone_id="246 5">
+	</activity>
+	<activity activity_id="49273" activity_relevance_key="0" activity_work_length_key="" address="Lyckehusv?gen|L?ddek?pinge||246 32||" bundle_key="lyckehusv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="540" x="12.989" y="55.75048" zone_id="246 3">
+	</activity>
+	<activity activity_id="49303" activity_relevance_key="0" activity_work_length_key="" address="Domarev?gen|L?ddek?pinge||246 30||" bundle_key="domarev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="480" x="13.01485" y="55.76116" zone_id="246 3">
+	</activity>
+	<activity activity_id="49304" activity_relevance_key="0" activity_work_length_key="" address="Sl?nb?rsv?gen|L?ddek?pinge||246 51||" bundle_key="sl?nb?rsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.97428" y="55.79344" zone_id="246 5">
+	</activity>
+	<activity activity_id="49308" activity_relevance_key="0" activity_work_length_key="" address="Backav?gen|L?ddek?pinge||246 31||" bundle_key="backav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="930" x="13.01703" y="55.75772" zone_id="246 3">
+	</activity>
+	<activity activity_id="49316" activity_relevance_key="0" activity_work_length_key="" address="Skolv?gen|L?ddek?pinge||246 30||" bundle_key="skolv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="13.00784" y="55.75988" zone_id="246 3">
+	</activity>
+	<activity activity_id="49318" activity_relevance_key="0" activity_work_length_key="" address="Kaveldunsv?gen|L?ddek?pinge||246 51||" bundle_key="kaveldunsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.96544" y="55.80771" zone_id="246 5">
+	</activity>
+	<activity activity_id="49319" activity_relevance_key="0" activity_work_length_key="" address="Bj?rken?sv?gen|L?ddek?pinge||246 55||" bundle_key="bj?rken?sv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="13.01555" y="55.76451" zone_id="246 5">
+	</activity>
+	<activity activity_id="49321" activity_relevance_key="0" activity_work_length_key="" address="L?raregr?nd|L?ddek?pinge||246 35||" bundle_key="l?raregr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="13.01396" y="55.76532" zone_id="246 3">
+	</activity>
+	<activity activity_id="49325" activity_relevance_key="0" activity_work_length_key="" address="Matematikgr?nd|L?ddek?pinge||246 35||" bundle_key="matematikgr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="13.0149" y="55.765" zone_id="246 3">
+	</activity>
+	<activity activity_id="49326" activity_relevance_key="0" activity_work_length_key="" address="Geografigr?nd|L?ddek?pinge||246 35||" bundle_key="geografigr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.01576" y="55.76438" zone_id="246 3">
+	</activity>
+	<activity activity_id="49329" activity_relevance_key="0" activity_work_length_key="" address="Rektorsgr?nd|L?ddek?pinge||246 35||" bundle_key="rektorsgr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.01476" y="55.76543" zone_id="246 3">
+	</activity>
+	<activity activity_id="49342" activity_relevance_key="0" activity_work_length_key="" address="?dalsv?gen Gatubelysning|L?ddek?pinge||246 35||" bundle_key="?dalsv?gen gatubelys" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.02176" y="55.75977" zone_id="246 3">
+	</activity>
+	<activity activity_id="49343" activity_relevance_key="0" activity_work_length_key="" address="Teknikkv?gen|L?ddek?pinge||243 43||" bundle_key="teknikkv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.00534" y="55.76711" zone_id="243 4">
+	</activity>
+	<activity activity_id="49346" activity_relevance_key="0" activity_work_length_key="" address="Magistergr?nd|L?ddek?pinge||246 35||" bundle_key="magistergr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1950" x="13.01566" y="55.76377" zone_id="246 3">
+	</activity>
+	<activity activity_id="49348" activity_relevance_key="0" activity_work_length_key="" address="Tv?vingev?gen|L?ddek?pinge||246 52||" bundle_key="tv?vingev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="12.9806" y="55.8154" zone_id="246 5">
+	</activity>
+	<activity activity_id="49356" activity_relevance_key="0" activity_work_length_key="" address="Sval?rtsv?gen|L?ddek?pinge||246 50||" bundle_key="sval?rtsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.98227" y="55.79584" zone_id="246 5">
+	</activity>
+	<activity activity_id="49358" activity_relevance_key="0" activity_work_length_key="" address="Nyv?ngsv?gen|L?ddek?pinge||246 30||" bundle_key="nyv?ngsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="480" x="13.01226" y="55.75927" zone_id="246 3">
+	</activity>
+	<activity activity_id="49374" activity_relevance_key="0" activity_work_length_key="" address="Paintballv?gen|L?ddek?pinge||246 52||" bundle_key="paintballv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.96765" y="55.8208" zone_id="246 5">
+	</activity>
+	<activity activity_id="49383" activity_relevance_key="0" activity_work_length_key="" address="Utterv?gen GB|L?ddek?pinge||246 52||" bundle_key="utterv?gen gb" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.97587" y="55.80716" zone_id="246 5">
+	</activity>
+	<activity activity_id="49384" activity_relevance_key="0" activity_work_length_key="" address="H?kantorp GB|L?ddek?pinge||246 55||" bundle_key="h?kantorp gb" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.9961" y="55.79313" zone_id="246 5">
+	</activity>
+	<activity activity_id="49385" activity_relevance_key="0" activity_work_length_key="" address="J?ravallen|L?ddek?pinge||246 55||" bundle_key="j?ravallen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.94777" y="55.78834" zone_id="246 5">
+	</activity>
+	<activity activity_id="49389" activity_relevance_key="0" activity_work_length_key="" address="Klubbhusv?gen|L?ddek?pinge||246 55||" bundle_key="klubbhusv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.94093" y="55.79094" zone_id="246 5">
+	</activity>
+	<activity activity_id="49464" activity_relevance_key="0" activity_work_length_key="" address="Fackelrosv?gen|L?ddek?pinge||246 51||" bundle_key="fackelrosv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1140" x="12.9751" y="55.79972" zone_id="246 5">
+	</activity>
+	<activity activity_id="49465" activity_relevance_key="0" activity_work_length_key="" address="Hippodromv?gen|L?ddek?pinge||246 50||" bundle_key="hippodromv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="480" x="12.98994" y="55.80072" zone_id="246 5">
+	</activity>
+	<activity activity_id="49469" activity_relevance_key="0" activity_work_length_key="" address="Kontorsv?gen|L?ddek?pinge||246 43||" bundle_key="kontorsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="13.00172" y="55.76897" zone_id="246 4">
+	</activity>
+	<activity activity_id="49471" activity_relevance_key="0" activity_work_length_key="" address="Grossistv?gen|L?ddek?pinge||246 42||" bundle_key="grossistv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.9889" y="55.77137" zone_id="246 4">
+	</activity>
+	<activity activity_id="49473" activity_relevance_key="0" activity_work_length_key="" address="Vikh?gs Kullav?g|L?ddek?pinge||246 32||" bundle_key="vikh?gs kullav?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.95608" y="55.72936" zone_id="246 3">
+	</activity>
+	<activity activity_id="49474" activity_relevance_key="0" activity_work_length_key="" address="Sk?nadalsv?gen|L?ddek?pinge||246 51||" bundle_key="sk?nadalsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.96732" y="55.79664" zone_id="246 5">
+	</activity>
+	<activity activity_id="49478" activity_relevance_key="0" activity_work_length_key="" address="Vridvingev?gen|L?ddek?pinge||246 52||" bundle_key="vridvingev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.98093" y="55.8161" zone_id="246 5">
+	</activity>
+	<activity activity_id="49483" activity_relevance_key="0" activity_work_length_key="" address="Kronhjortsv?gen|L?ddek?pinge||246 52||" bundle_key="kronhjortsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1020" x="12.97406" y="55.81646" zone_id="246 5">
+	</activity>
+	<activity activity_id="49497" activity_relevance_key="0" activity_work_length_key="" address="Varuv?gen|L?ddek?pinge||246 42||" bundle_key="varuv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.99477" y="55.76869" zone_id="246 4">
+	</activity>
+	<activity activity_id="49502" activity_relevance_key="0" activity_work_length_key="" address="Bollv?gen|L?ddek?pinge||246 35||" bundle_key="bollv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.01367" y="55.76635" zone_id="246 3">
+	</activity>
+	<activity activity_id="49506" activity_relevance_key="0" activity_work_length_key="" address="Bl?eldv?gen|L?ddek?pinge||246 51||" bundle_key="bl?eldv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2160" x="12.96931" y="55.79467" zone_id="246 5">
+	</activity>
+	<activity activity_id="49517" activity_relevance_key="0" activity_work_length_key="" address="Lantv?gen|L?ddek?pinge||246 33||" bundle_key="lantv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1710" x="12.99549" y="55.76121" zone_id="246 3">
+	</activity>
+	<activity activity_id="49518" activity_relevance_key="0" activity_work_length_key="" address="Fornv?gen|L?ddek?pinge||246 34||" bundle_key="fornv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2100" x="13.00377" y="55.76465" zone_id="246 3">
+	</activity>
+	<activity activity_id="49519" activity_relevance_key="0" activity_work_length_key="" address="D?sv?gen|L?ddek?pinge||246 33||" bundle_key="d?sv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1170" x="12.99595" y="55.76557" zone_id="246 3">
+	</activity>
+	<activity activity_id="49521" activity_relevance_key="0" activity_work_length_key="" address="H?kv?gen|L?ddek?pinge||246 30||" bundle_key="h?kv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.00603" y="55.76062" zone_id="246 3">
+	</activity>
+	<activity activity_id="49522" activity_relevance_key="0" activity_work_length_key="" address="Odlarev?gen|L?ddek?pinge||246 33||" bundle_key="odlarev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="3210" x="12.99696" y="55.75924" zone_id="246 3">
+	</activity>
+	<activity activity_id="49523" activity_relevance_key="0" activity_work_length_key="" address="F?gelv?gen|L?ddek?pinge||246 32||" bundle_key="f?gelv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="690" x="12.99537" y="55.75384" zone_id="246 3">
+	</activity>
+	<activity activity_id="49524" activity_relevance_key="0" activity_work_length_key="" address="Konvaljv?gen|L?ddek?pinge||246 51||" bundle_key="konvaljv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1050" x="12.97459" y="55.80082" zone_id="246 5">
+	</activity>
+	<activity activity_id="49526" activity_relevance_key="0" activity_work_length_key="" address="S?derv?ngsv?gen|L?ddek?pinge||246 36||" bundle_key="s?derv?ngsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="6630" x="13.02398" y="55.76297" zone_id="246 3">
+	</activity>
+	<activity activity_id="49529" activity_relevance_key="0" activity_work_length_key="" address="Kungsljusv?gen|L?ddek?pinge||246 51||" bundle_key="kungsljusv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1710" x="12.97594" y="55.8029" zone_id="246 5">
+	</activity>
+	<activity activity_id="49530" activity_relevance_key="0" activity_work_length_key="" address="Valhallsv?gen|L?ddek?pinge||246 31||" bundle_key="valhallsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="13.00032" y="55.75693" zone_id="246 3">
+	</activity>
+	<activity activity_id="49532" activity_relevance_key="0" activity_work_length_key="" address="Mullvadsv?gen|L?ddek?pinge||246 52||" bundle_key="mullvadsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="570" x="12.97281" y="55.80994" zone_id="246 5">
+	</activity>
+	<activity activity_id="49533" activity_relevance_key="0" activity_work_length_key="" address="Brynjev?gen|L?ddek?pinge||246 34||" bundle_key="brynjev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2040" x="12.99739" y="55.76535" zone_id="246 3">
+	</activity>
+	<activity activity_id="49537" activity_relevance_key="0" activity_work_length_key="" address="Runstensgr?nd|L?ddek?pinge||246 33||" bundle_key="runstensgr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.99465" y="55.76417" zone_id="246 3">
+	</activity>
+	<activity activity_id="49540" activity_relevance_key="0" activity_work_length_key="" address="Semesterv?gen|L?ddek?pinge||246 32||" bundle_key="semesterv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.98298" y="55.76091" zone_id="246 3">
+	</activity>
+	<activity activity_id="49541" activity_relevance_key="0" activity_work_length_key="" address="B?rnstensv?gen|L?ddek?pinge||246 34||" bundle_key="b?rnstensv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1800" x="13.00683" y="55.76534" zone_id="246 3">
+	</activity>
+	<activity activity_id="49544" activity_relevance_key="0" activity_work_length_key="" address="Folkparksv?gen|L?ddek?pinge||246 30||" bundle_key="folkparksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="13.01124" y="55.75968" zone_id="246 3">
+	</activity>
+	<activity activity_id="49551" activity_relevance_key="0" activity_work_length_key="" address="Lokalv?gen|L?ddek?pinge||246 42||" bundle_key="lokalv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.99749" y="55.76949" zone_id="246 4">
+	</activity>
+	<activity activity_id="49552" activity_relevance_key="0" activity_work_length_key="" address="Vilev?gen|L?ddek?pinge||246 32||" bundle_key="vilev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.98469" y="55.75802" zone_id="246 3">
+	</activity>
+	<activity activity_id="49554" activity_relevance_key="0" activity_work_length_key="" address="Bofinkv?gen|L?ddek?pinge||246 32||" bundle_key="bofinkv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="12.9921" y="55.75106" zone_id="246 3">
+	</activity>
+	<activity activity_id="49555" activity_relevance_key="0" activity_work_length_key="" address="Opalv?gen|L?ddek?pinge||246 34||" bundle_key="opalv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1920" x="13.00978" y="55.76509" zone_id="246 3">
+	</activity>
+	<activity activity_id="49556" activity_relevance_key="0" activity_work_length_key="" address="Balders v?g|L?ddek?pinge||246 31||" bundle_key="balders v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="840" x="13.00436" y="55.75561" zone_id="246 3">
+	</activity>
+	<activity activity_id="49561" activity_relevance_key="0" activity_work_length_key="" address="Terminalv?gen|L?ddek?pinge||246 42||" bundle_key="terminalv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="12.99652" y="55.7724" zone_id="246 4">
+	</activity>
+	<activity activity_id="49565" activity_relevance_key="0" activity_work_length_key="" address="Pulpetv?gen|L?ddek?pinge||246 50||" bundle_key="pulpetv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.97817" y="55.80832" zone_id="246 5">
+	</activity>
+	<activity activity_id="49568" activity_relevance_key="0" activity_work_length_key="" address="Gullvivev?gen|L?ddek?pinge||246 51||" bundle_key="gullvivev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.97014" y="55.79663" zone_id="246 5">
+	</activity>
+	<activity activity_id="49569" activity_relevance_key="0" activity_work_length_key="" address="Illerv?gen|L?ddek?pinge||246 50||" bundle_key="illerv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="12.98418" y="55.8108" zone_id="246 5">
+	</activity>
+	<activity activity_id="49570" activity_relevance_key="0" activity_work_length_key="" address="Domherrev?gen|L?ddek?pinge||246 32||" bundle_key="domherrev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="570" x="12.98963" y="55.75042" zone_id="246 3">
+	</activity>
+	<activity activity_id="49571" activity_relevance_key="0" activity_work_length_key="" address="Svanv?gen|L?ddek?pinge||246 32||" bundle_key="svanv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="450" x="12.99048" y="55.74967" zone_id="246 3">
+	</activity>
+	<activity activity_id="49572" activity_relevance_key="0" activity_work_length_key="" address="Vesslev?gen|L?ddek?pinge||246 52||" bundle_key="vesslev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="12.97211" y="55.80911" zone_id="246 5">
+	</activity>
+	<activity activity_id="49586" activity_relevance_key="0" activity_work_length_key="" address="Fraktv?gen|L?ddek?pinge||246 42||" bundle_key="fraktv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.99733" y="55.76892" zone_id="246 4">
+	</activity>
+	<activity activity_id="49594" activity_relevance_key="0" activity_work_length_key="" address="F?gel Fenix v?g|L?ddek?pinge||246 42||" bundle_key="f?gel fenix v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="450" x="12.99523" y="55.76703" zone_id="246 4">
+	</activity>
+	<activity activity_id="49613" activity_relevance_key="0" activity_work_length_key="" address="Hattmakarv?gen|L?ddek?pinge||246 32||" bundle_key="hattmakarv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.98753" y="55.7562" zone_id="246 3">
+	</activity>
+	<activity activity_id="49802" activity_relevance_key="0" activity_work_length_key="" address="Bl?eldsv?gen|L?ddek?pinge||246 51||" bundle_key="bl?eldsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.96842" y="55.79472" zone_id="246 5">
+	</activity>
+	<activity activity_id="49963" activity_relevance_key="0" activity_work_length_key="" address="Dovhjortsv?gen|L?ddek?pinge||246 52||" bundle_key="dovhjortsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="780" x="12.97231" y="55.81348" zone_id="246 5">
+	</activity>
+	<activity activity_id="49988" activity_relevance_key="0" activity_work_length_key="" address="Piaffv?gen|L?ddek?pinge||246 50||" bundle_key="piaffv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.9865" y="55.8015" zone_id="246 5">
+	</activity>
+	<activity activity_id="50018" activity_relevance_key="0" activity_work_length_key="" address="Gyllenlackv?gen|L?ddek?pinge||246 51||" bundle_key="gyllenlackv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="660" x="12.96943" y="55.79312" zone_id="246 5">
+	</activity>
+	<activity activity_id="50031" activity_relevance_key="0" activity_work_length_key="" address="Hofterup|L?ddek?pinge||246 51||" bundle_key="hofterup" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.96056" y="55.79034" zone_id="246 5">
+	</activity>
+	<activity activity_id="50040" activity_relevance_key="0" activity_work_length_key="" address="Hofterup 1:38|L?ddek?pinge||246 51||" bundle_key="hofterup 1:38" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.97208" y="55.78772" zone_id="246 5">
+	</activity>
+	<activity activity_id="50126" activity_relevance_key="0" activity_work_length_key="" address="Litorinav?gen Hus B|L?ddek?pinge||246 55||" bundle_key="litorinav?gen hus b" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.95217" y="55.79434" zone_id="246 5">
+	</activity>
+	<activity activity_id="50131" activity_relevance_key="0" activity_work_length_key="" address="Hus B|L?ddek?pinge||246 55||" bundle_key="hus b" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.95285" y="55.79397" zone_id="246 5">
+	</activity>
+	<activity activity_id="50154" activity_relevance_key="0" activity_work_length_key="" address="Sk?ldv?gen|L?ddek?pinge||246 34||" bundle_key="sk?ldv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="2130" x="13.00103" y="55.7656" zone_id="246 3">
+	</activity>
+	<activity activity_id="50201" activity_relevance_key="0" activity_work_length_key="" address="Sotareg?rden|L?ddek?pinge||246 33||" bundle_key="sotareg?rden" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.99919" y="55.7581" zone_id="246 3">
+	</activity>
+	<activity activity_id="50253" activity_relevance_key="0" activity_work_length_key="" address="Barseb?ck|L?ddek?pinge||246 32||" bundle_key="barseb?ck" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.97705" y="55.76442" zone_id="246 3">
+	</activity>
+	<activity activity_id="50267" activity_relevance_key="0" activity_work_length_key="" address="Midsommarv?gen|L?ddek?pinge||246 32||" bundle_key="midsommarv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.97931" y="55.76349" zone_id="246 3">
+	</activity>
+	<activity activity_id="50285" activity_relevance_key="0" activity_work_length_key="" address="Stubbv?gen|L?ddek?pinge||246 32||" bundle_key="stubbv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.98358" y="55.76384" zone_id="246 3">
+	</activity>
+	<activity activity_id="50295" activity_relevance_key="0" activity_work_length_key="" address="Jordbrov?gen|L?ddek?pinge||246 32||" bundle_key="jordbrov?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.98365" y="55.76334" zone_id="246 3">
+	</activity>
+	<activity activity_id="50307" activity_relevance_key="0" activity_work_length_key="" address="Fritidsv?gen|L?ddek?pinge||246 32||" bundle_key="fritidsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.98533" y="55.76211" zone_id="246 3">
+	</activity>
+	<activity activity_id="50323" activity_relevance_key="0" activity_work_length_key="" address="Solskensv?gen|L?ddek?pinge||246 32||" bundle_key="solskensv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.98911" y="55.76227" zone_id="246 3">
+	</activity>
+	<activity activity_id="50324" activity_relevance_key="0" activity_work_length_key="" address="Hasselv?gen|L?ddek?pinge||246 32||" bundle_key="hasselv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.98937" y="55.76253" zone_id="246 3">
+	</activity>
+	<activity activity_id="50331" activity_relevance_key="0" activity_work_length_key="" address="Lillebov?gen|L?ddek?pinge||246 32||" bundle_key="lillebov?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.99019" y="55.76201" zone_id="246 3">
+	</activity>
+	<activity activity_id="50391" activity_relevance_key="0" activity_work_length_key="" address="Killeb?cksv?gen|L?ddek?pinge||246 32||" bundle_key="killeb?cksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.97751" y="55.7604" zone_id="246 3">
+	</activity>
+	<activity activity_id="50408" activity_relevance_key="0" activity_work_length_key="" address="Bildstensgr?nd|L?ddek?pinge||246 33||" bundle_key="bildstensgr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.99251" y="55.76546" zone_id="246 3">
+	</activity>
+	<activity activity_id="50443" activity_relevance_key="0" activity_work_length_key="" address="Lyckev?gen|L?ddek?pinge||246 32||" bundle_key="lyckev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.9808" y="55.75813" zone_id="246 3">
+	</activity>
+	<activity activity_id="50446" activity_relevance_key="0" activity_work_length_key="" address="L?ddesborgsv?gen|L?ddek?pinge||246 32||" bundle_key="l?ddesborgsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.97116" y="55.73856" zone_id="246 3">
+	</activity>
+	<activity activity_id="50453" activity_relevance_key="0" activity_work_length_key="" address="Vikh?gs Uddev?g|L?ddek?pinge||246 32||" bundle_key="vikh?gs uddev?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.95575" y="55.73074" zone_id="246 3">
+	</activity>
+	<activity activity_id="50454" activity_relevance_key="0" activity_work_length_key="" address="Vikh?g|L?ddek?pinge||246 32||" bundle_key="vikh?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.95495" y="55.72909" zone_id="246 3">
+	</activity>
+	<activity activity_id="50458" activity_relevance_key="0" activity_work_length_key="" address="Vikh?g, Pl|L?ddek?pinge||246 32||" bundle_key="vikh?g, pl" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.95583" y="55.72883" zone_id="246 3">
+	</activity>
+	<activity activity_id="50467" activity_relevance_key="0" activity_work_length_key="" address="Vikh?gs?ngav?g|L?ddek?pinge||246 32||" bundle_key="vikh?gs?ngav?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.96109" y="55.73055" zone_id="246 3">
+	</activity>
+	<activity activity_id="50468" activity_relevance_key="0" activity_work_length_key="" address="Vikh?gs ?ngav?g|L?ddek?pinge||246 32||" bundle_key="vikh?gs ?ngav?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.96075" y="55.73051" zone_id="246 3">
+	</activity>
+	<activity activity_id="50523" activity_relevance_key="0" activity_work_length_key="" address="Kaptensv?gen|L?ddek?pinge||246 31||" bundle_key="kaptensv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="13.02157" y="55.75789" zone_id="246 3">
+	</activity>
+	<activity activity_id="50568" activity_relevance_key="0" activity_work_length_key="" address="Stend?sv?gen|L?ddek?pinge||246 55||" bundle_key="stend?sv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.98249" y="55.78288" zone_id="246 5">
+	</activity>
+	<activity activity_id="50573" activity_relevance_key="0" activity_work_length_key="" address="Stafettv?gen|L?ddek?pinge||246 52||" bundle_key="stafettv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.94499" y="55.8246" zone_id="246 5">
+	</activity>
+	<activity activity_id="50574" activity_relevance_key="0" activity_work_length_key="" address="Bageriv?gen|L?ddek?pinge||246 30||" bundle_key="bageriv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1260" x="13.01362" y="55.75896" zone_id="246 3">
+	</activity>
+	<activity activity_id="50580" activity_relevance_key="0" activity_work_length_key="" address="Topasv?gen|L?ddek?pinge||246 34||" bundle_key="topasv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1530" x="13.01347" y="55.76343" zone_id="246 3">
+	</activity>
+	<activity activity_id="50599" activity_relevance_key="0" activity_work_length_key="" address="Simmarv?gen|L?ddek?pinge||246 52||" bundle_key="simmarv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.94266" y="55.82539" zone_id="246 5">
+	</activity>
+	<activity activity_id="50619" activity_relevance_key="0" activity_work_length_key="" address="Slalomv?gen|L?ddek?pinge||246 52||" bundle_key="slalomv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.94183" y="55.82402" zone_id="246 5">
+	</activity>
+	<activity activity_id="50624" activity_relevance_key="0" activity_work_length_key="" address="Joggingv?gen|L?ddek?pinge||246 52||" bundle_key="joggingv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="480" x="12.94159" y="55.8248" zone_id="246 5">
+	</activity>
+	<activity activity_id="50637" activity_relevance_key="0" activity_work_length_key="" address="Silvav?gen|L?ddek?pinge||246 52||" bundle_key="silvav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.95233" y="55.82269" zone_id="246 5">
+	</activity>
+	<activity activity_id="50644" activity_relevance_key="0" activity_work_length_key="" address="Skogsharev?gen|L?ddek?pinge||246 52||" bundle_key="skogsharev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="630" x="12.98064" y="55.81311" zone_id="246 5">
+	</activity>
+	<activity activity_id="50647" activity_relevance_key="0" activity_work_length_key="" address="Grand Prixv?gen|L?ddek?pinge||246 52||" bundle_key="grand prixv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.96664" y="55.82393" zone_id="246 5">
+	</activity>
+	<activity activity_id="50653" activity_relevance_key="0" activity_work_length_key="" address="Klubbstuga ?lstorp|L?ddek?pinge||246 52||" bundle_key="klubbstuga ?lstorp" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.95304" y="55.81848" zone_id="246 5">
+	</activity>
+	<activity activity_id="50658" activity_relevance_key="0" activity_work_length_key="" address="Belysning ?lstorp|L?ddek?pinge||246 52||" bundle_key="belysning ?lstorp" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.93975" y="55.82244" zone_id="246 5">
+	</activity>
+	<activity activity_id="50659" activity_relevance_key="0" activity_work_length_key="" address="L?ddek?pinge|L?ddek?pinge||246 32||" bundle_key="l?ddek?pinge" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.97482" y="55.75424" zone_id="246 3">
+	</activity>
+	<activity activity_id="50663" activity_relevance_key="0" activity_work_length_key="" address="Bullerbyv?gen|L?ddek?pinge||246 50||" bundle_key="bullerbyv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.99001" y="55.81178" zone_id="246 5">
+	</activity>
+	<activity activity_id="50665" activity_relevance_key="0" activity_work_length_key="" address="Griffelv?gen|L?ddek?pinge||246 50||" bundle_key="griffelv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="930" x="12.97926" y="55.80885" zone_id="246 5">
+	</activity>
+	<activity activity_id="50668" activity_relevance_key="0" activity_work_length_key="" address="Passagev?gen|L?ddek?pinge||246 50||" bundle_key="passagev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.98604" y="55.80081" zone_id="246 5">
+	</activity>
+	<activity activity_id="50669" activity_relevance_key="0" activity_work_length_key="" address="Bj?rnv?gen|L?ddek?pinge||246 52||" bundle_key="bj?rnv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="12.96561" y="55.81905" zone_id="246 5">
+	</activity>
+	<activity activity_id="50678" activity_relevance_key="0" activity_work_length_key="" address="?lgv?gen|L?ddek?pinge||246 52||" bundle_key="?lgv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.97153" y="55.81739" zone_id="246 5">
+	</activity>
+	<activity activity_id="50685" activity_relevance_key="0" activity_work_length_key="" address="Lodjursv?gen|L?ddek?pinge||246 52||" bundle_key="lodjursv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.97239" y="55.81682" zone_id="246 5">
+	</activity>
+	<activity activity_id="50698" activity_relevance_key="0" activity_work_length_key="" address="Galoppv?gen|L?ddek?pinge||246 52||" bundle_key="galoppv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.98542" y="55.80661" zone_id="246 5">
+	</activity>
+	<activity activity_id="50749" activity_relevance_key="0" activity_work_length_key="" address="Sobelv?gen|L?ddek?pinge||246 52||" bundle_key="sobelv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="12.97605" y="55.81452" zone_id="246 5">
+	</activity>
+	<activity activity_id="50751" activity_relevance_key="0" activity_work_length_key="" address="Ekorrv?gen|L?ddek?pinge||246 52||" bundle_key="ekorrv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="450" x="12.97654" y="55.8144" zone_id="246 5">
+	</activity>
+	<activity activity_id="50759" activity_relevance_key="0" activity_work_length_key="" address="Trollsl?ndev?gen|L?ddek?pinge||246 52||" bundle_key="trollsl?ndev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="12.97488" y="55.81705" zone_id="246 5">
+	</activity>
+	<activity activity_id="50765" activity_relevance_key="0" activity_work_length_key="" address="Syrsans v?g|L?ddek?pinge||246 52||" bundle_key="syrsans v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.97374" y="55.81902" zone_id="246 5">
+	</activity>
+	<activity activity_id="50767" activity_relevance_key="0" activity_work_length_key="" address="Insektsv?gen|L?ddek?pinge||246 52||" bundle_key="insektsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="12.97442" y="55.8192" zone_id="246 5">
+	</activity>
+	<activity activity_id="50770" activity_relevance_key="0" activity_work_length_key="" address="Myrans v?g|L?ddek?pinge||246 52||" bundle_key="myrans v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.97478" y="55.81838" zone_id="246 5">
+	</activity>
+	<activity activity_id="50777" activity_relevance_key="0" activity_work_length_key="" address="Dagsl?ndev?gen|L?ddek?pinge||246 52||" bundle_key="dagsl?ndev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.9753" y="55.81646" zone_id="246 5">
+	</activity>
+	<activity activity_id="50787" activity_relevance_key="0" activity_work_length_key="" address="Fj?rilsv?gen|L?ddek?pinge||246 52||" bundle_key="fj?rilsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.97696" y="55.81623" zone_id="246 5">
+	</activity>
+	<activity activity_id="50788" activity_relevance_key="0" activity_work_length_key="" address="Lysmaskv?gen|L?ddek?pinge||246 52||" bundle_key="lysmaskv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="390" x="12.97542" y="55.81938" zone_id="246 5">
+	</activity>
+	<activity activity_id="50790" activity_relevance_key="0" activity_work_length_key="" address="Bevattningspump Nr|L?ddek?pinge||246 52||" bundle_key="bevattningspump nr" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.02139" y="55.77093" zone_id="246 5">
+	</activity>
+	<activity activity_id="50795" activity_relevance_key="0" activity_work_length_key="" address="Kortvingev?gen|L?ddek?pinge||246 52||" bundle_key="kortvingev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.9787" y="55.8155" zone_id="246 5">
+	</activity>
+	<activity activity_id="50796" activity_relevance_key="0" activity_work_length_key="" address="Nyckelpigsv?gen|L?ddek?pinge||246 52||" bundle_key="nyckelpigsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.97691" y="55.8193" zone_id="246 5">
+	</activity>
+	<activity activity_id="50807" activity_relevance_key="0" activity_work_length_key="" address="Stekelv?gen|L?ddek?pinge||246 52||" bundle_key="stekelv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.97683" y="55.81775" zone_id="246 5">
+	</activity>
+	<activity activity_id="50811" activity_relevance_key="0" activity_work_length_key="" address="Jordl?parev?gen|L?ddek?pinge||246 52||" bundle_key="jordl?parev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.97822" y="55.81774" zone_id="246 5">
+	</activity>
+	<activity activity_id="50863" activity_relevance_key="0" activity_work_length_key="" address="Hermelinv?gen|L?ddek?pinge||246 52||" bundle_key="hermelinv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="12.97289" y="55.80937" zone_id="246 5">
+	</activity>
+	<activity activity_id="50864" activity_relevance_key="0" activity_work_length_key="" address="Aff?rsv?gen|L?ddek?pinge||246 52||" bundle_key="aff?rsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.97401" y="55.8094" zone_id="246 5">
+	</activity>
+	<activity activity_id="50889" activity_relevance_key="0" activity_work_length_key="" address="Furuhillsv?gen|L?ddek?pinge||246 50||" bundle_key="furuhillsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.97989" y="55.81022" zone_id="246 5">
+	</activity>
+	<activity activity_id="50898" activity_relevance_key="0" activity_work_length_key="" address="Villebr?dsv?gen|L?ddek?pinge||246 50||" bundle_key="villebr?dsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.98161" y="55.81071" zone_id="246 5">
+	</activity>
+	<activity activity_id="50912" activity_relevance_key="0" activity_work_length_key="" address="Vildkaninv?gen|L?ddek?pinge||246 50||" bundle_key="vildkaninv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.98378" y="55.80912" zone_id="246 5">
+	</activity>
+	<activity activity_id="50916" activity_relevance_key="0" activity_work_length_key="" address="Minkv?gen|L?ddek?pinge||246 50||" bundle_key="minkv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.98249" y="55.80945" zone_id="246 5">
+	</activity>
+	<activity activity_id="50940" activity_relevance_key="0" activity_work_length_key="" address="GrandPrix v?gen|L?ddek?pinge||246 50||" bundle_key="grandprix v?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.98702" y="55.80207" zone_id="246 5">
+	</activity>
+	<activity activity_id="50941" activity_relevance_key="0" activity_work_length_key="" address="Hubertusv?gen|L?ddek?pinge||246 50||" bundle_key="hubertusv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.98773" y="55.80129" zone_id="246 5">
+	</activity>
+	<activity activity_id="50960" activity_relevance_key="0" activity_work_length_key="" address="Remontv?gen|L?ddek?pinge||246 50||" bundle_key="remontv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.99132" y="55.80005" zone_id="246 5">
+	</activity>
+	<activity activity_id="50970" activity_relevance_key="0" activity_work_length_key="" address="H?kantorp|L?ddek?pinge||246 55||" bundle_key="h?kantorp" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="12.99784" y="55.79135" zone_id="246 5">
+	</activity>
+	<activity activity_id="51098" activity_relevance_key="0" activity_work_length_key="" address="?kersorksv?gen|L?ddek?pinge||246 52||" bundle_key="?kersorksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="690" x="12.97472" y="55.81128" zone_id="246 5">
+	</activity>
+	<activity activity_id="51116" activity_relevance_key="0" activity_work_length_key="" address="H?mplingev?gen|L?ddek?pinge||246 32||" bundle_key="h?mplingev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="12.9926" y="55.75018" zone_id="246 3">
+	</activity>
+	<activity activity_id="51136" activity_relevance_key="0" activity_work_length_key="" address="Norrev?ngsv?gen|L?ddek?pinge||246 55||" bundle_key="norrev?ngsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="13.02709" y="55.78176" zone_id="246 5">
+	</activity>
+	<activity activity_id="51140" activity_relevance_key="0" activity_work_length_key="" address="Henkelstorp|L?ddek?pinge||246 50||" bundle_key="henkelstorp" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.9941" y="55.79774" zone_id="246 5">
+	</activity>
+	<activity activity_id="51165" activity_relevance_key="0" activity_work_length_key="" address="Midg?rdsv?gen|L?ddek?pinge||246 34||" bundle_key="midg?rdsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="13.00373" y="55.76582" zone_id="246 3">
+	</activity>
+	<activity activity_id="51495" activity_relevance_key="0" activity_work_length_key="" address="Domarringsgr?nd|L?ddek?pinge||246 33||" bundle_key="domarringsgr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="12.99435" y="55.76552" zone_id="246 3">
+	</activity>
+	<activity activity_id="51523" activity_relevance_key="0" activity_work_length_key="" address="Skogsbrynet|L?ddek?pinge||246 32||" bundle_key="skogsbrynet" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="12.98407" y="55.75694" zone_id="246 3">
+	</activity>
+	<activity activity_id="51681" activity_relevance_key="0" activity_work_length_key="" address="Bondev?gen|L?ddek?pinge||246 33||" bundle_key="bondev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="480" x="12.99436" y="55.76244" zone_id="246 3">
+	</activity>
+	<activity activity_id="51696" activity_relevance_key="0" activity_work_length_key="" address="Sk?rdev?gen|L?ddek?pinge||246 33||" bundle_key="sk?rdev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="480" x="12.99278" y="55.76416" zone_id="246 3">
+	</activity>
+	<activity activity_id="51717" activity_relevance_key="0" activity_work_length_key="" address="H?llkistegr?nd|L?ddek?pinge||246 33||" bundle_key="h?llkistegr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="150" x="12.99511" y="55.7638" zone_id="246 3">
+	</activity>
+	<activity activity_id="51771" activity_relevance_key="0" activity_work_length_key="" address="Hedv?gen|L?ddek?pinge||246 32||" bundle_key="hedv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="630" x="12.99479" y="55.74956" zone_id="246 3">
+	</activity>
+	<activity activity_id="51776" activity_relevance_key="0" activity_work_length_key="" address="M?sv?gen|L?ddek?pinge||246 32||" bundle_key="m?sv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="300" x="12.99645" y="55.75303" zone_id="246 3">
+	</activity>
+	<activity activity_id="51811" activity_relevance_key="0" activity_work_length_key="" address="Skr?ddarev?gen|L?ddek?pinge||246 32||" bundle_key="skr?ddarev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.99322" y="55.75473" zone_id="246 3">
+	</activity>
+	<activity activity_id="51815" activity_relevance_key="0" activity_work_length_key="" address="Kl?dmakarv?gen|L?ddek?pinge||246 32||" bundle_key="kl?dmakarv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.99067" y="55.75544" zone_id="246 3">
+	</activity>
+	<activity activity_id="51822" activity_relevance_key="0" activity_work_length_key="" address="Tillsk?rarv?gen|L?ddek?pinge||246 32||" bundle_key="tillsk?rarv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="12.99097" y="55.75483" zone_id="246 3">
+	</activity>
+	<activity activity_id="51842" activity_relevance_key="0" activity_work_length_key="" address="Smultronst?llet|L?ddek?pinge||246 32||" bundle_key="smultronst?llet" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.98327" y="55.75834" zone_id="246 3">
+	</activity>
+	<activity activity_id="51849" activity_relevance_key="0" activity_work_length_key="" address="Bl?mesv?gen|L?ddek?pinge||246 32||" bundle_key="bl?mesv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="330" x="12.99314" y="55.75299" zone_id="246 3">
+	</activity>
+	<activity activity_id="51890" activity_relevance_key="0" activity_work_length_key="" address="Ripv?gen|L?ddek?pinge||246 32||" bundle_key="ripv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.99058" y="55.75145" zone_id="246 3">
+	</activity>
+	<activity activity_id="51919" activity_relevance_key="0" activity_work_length_key="" address="Ejderv?gen|L?ddek?pinge||246 32||" bundle_key="ejderv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="12.99707" y="55.75227" zone_id="246 3">
+	</activity>
+	<activity activity_id="51922" activity_relevance_key="0" activity_work_length_key="" address="?rnv?gen|L?ddek?pinge||246 32||" bundle_key="?rnv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.99582" y="55.75286" zone_id="246 3">
+	</activity>
+	<activity activity_id="51943" activity_relevance_key="0" activity_work_length_key="" address="R?dhakev?gen|L?ddek?pinge||246 32||" bundle_key="r?dhakev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="360" x="12.99428" y="55.75213" zone_id="246 3">
+	</activity>
+	<activity activity_id="51994" activity_relevance_key="0" activity_work_length_key="" address="Majorsv?gen|L?ddek?pinge||246 31||" bundle_key="majorsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="13.01905" y="55.7573" zone_id="246 3">
+	</activity>
+	<activity activity_id="52122" activity_relevance_key="0" activity_work_length_key="" address="Orrev?gen|L?ddek?pinge||246 30||" bundle_key="orrev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="13.00474" y="55.75857" zone_id="246 3">
+	</activity>
+	<activity activity_id="52126" activity_relevance_key="0" activity_work_length_key="" address="Vaktelv?gen|L?ddek?pinge||246 30||" bundle_key="vaktelv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="210" x="13.00485" y="55.75903" zone_id="246 3">
+	</activity>
+	<activity activity_id="52133" activity_relevance_key="0" activity_work_length_key="" address="Vr?kv?gen|L?ddek?pinge||246 30||" bundle_key="vr?kv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.00447" y="55.75955" zone_id="246 3">
+	</activity>
+	<activity activity_id="52141" activity_relevance_key="0" activity_work_length_key="" address="Morkullev?gen|L?ddek?pinge||246 30||" bundle_key="morkullev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.00535" y="55.75969" zone_id="246 3">
+	</activity>
+	<activity activity_id="52155" activity_relevance_key="0" activity_work_length_key="" address="Trang?rden|L?ddek?pinge||246 30||" bundle_key="trang?rden" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.00407" y="55.7604" zone_id="246 3">
+	</activity>
+	<activity activity_id="52163" activity_relevance_key="0" activity_work_length_key="" address="Falkv?gen|L?ddek?pinge||246 30||" bundle_key="falkv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.00473" y="55.76088" zone_id="246 3">
+	</activity>
+	<activity activity_id="52171" activity_relevance_key="0" activity_work_length_key="" address="H?gerv?gen|L?ddek?pinge||246 30||" bundle_key="h?gerv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="13.00414" y="55.76015" zone_id="246 3">
+	</activity>
+	<activity activity_id="52175" activity_relevance_key="0" activity_work_length_key="" address="Br?nnarev?gen|L?ddek?pinge||246 33||" bundle_key="br?nnarev?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="750" x="13.00262" y="55.76009" zone_id="246 3">
+	</activity>
+	<activity activity_id="52242" activity_relevance_key="0" activity_work_length_key="" address="M?lareg?rden|L?ddek?pinge||246 33||" bundle_key="m?lareg?rden" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="12.9988" y="55.75845" zone_id="246 3">
+	</activity>
+	<activity activity_id="52253" activity_relevance_key="0" activity_work_length_key="" address="Visirv?gen|L?ddek?pinge||246 33||" bundle_key="visirv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="12.99916" y="55.75728" zone_id="246 3">
+	</activity>
+	<activity activity_id="52277" activity_relevance_key="0" activity_work_length_key="" address="Ges?llv?gen|L?ddek?pinge||246 33||" bundle_key="ges?llv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.00257" y="55.75827" zone_id="246 3">
+	</activity>
+	<activity activity_id="52288" activity_relevance_key="0" activity_work_length_key="" address="H?g|L?ddek?pinge||246 31||" bundle_key="h?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.0439" y="55.76445" zone_id="246 3">
+	</activity>
+	<activity activity_id="52293" activity_relevance_key="0" activity_work_length_key="" address="K?llstorp|L?ddek?pinge||246 55||" bundle_key="k?llstorp" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.03717" y="55.76323" zone_id="246 5">
+	</activity>
+	<activity activity_id="52294" activity_relevance_key="0" activity_work_length_key="" address="H?gs byv?g|L?ddek?pinge||246 55||" bundle_key="h?gs byv?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="13.03416" y="55.76315" zone_id="246 5">
+	</activity>
+	<activity activity_id="52299" activity_relevance_key="0" activity_work_length_key="" address="Vattenverksv?gen|L?ddek?pinge||246 31||" bundle_key="vattenverksv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="420" x="13.0119" y="55.75852" zone_id="246 3">
+	</activity>
+	<activity activity_id="52300" activity_relevance_key="0" activity_work_length_key="" address="Radhusv?gen|L?ddek?pinge||246 31||" bundle_key="radhusv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="1110" x="13.00995" y="55.75695" zone_id="246 3">
+	</activity>
+	<activity activity_id="52305" activity_relevance_key="0" activity_work_length_key="" address="Trekanten|L?ddek?pinge||246 31||" bundle_key="trekanten" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="120" x="13.01316" y="55.75798" zone_id="246 3">
+	</activity>
+	<activity activity_id="52310" activity_relevance_key="0" activity_work_length_key="" address="Ymers v?g|L?ddek?pinge||246 31||" bundle_key="ymers v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.00188" y="55.75606" zone_id="246 3">
+	</activity>
+	<activity activity_id="52324" activity_relevance_key="0" activity_work_length_key="" address="Tors v?g|L?ddek?pinge||246 31||" bundle_key="tors v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="840" x="13.00322" y="55.75666" zone_id="246 3">
+	</activity>
+	<activity activity_id="52335" activity_relevance_key="0" activity_work_length_key="" address="Asg?rdsv?gen|L?ddek?pinge||246 31||" bundle_key="asg?rdsv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="90" x="13.00115" y="55.75568" zone_id="246 3">
+	</activity>
+	<activity activity_id="52364" activity_relevance_key="0" activity_work_length_key="" address="Truls H?gs v?g|L?ddek?pinge||246 31||" bundle_key="truls h?gs v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="900" x="13.00879" y="55.75391" zone_id="246 3">
+	</activity>
+	<activity activity_id="52394" activity_relevance_key="0" activity_work_length_key="" address="Lokes v?g|L?ddek?pinge||246 31||" bundle_key="lokes v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="660" x="13.00703" y="55.75331" zone_id="246 3">
+	</activity>
+	<activity activity_id="52412" activity_relevance_key="0" activity_work_length_key="" address="Frejas v?g|L?ddek?pinge||246 31||" bundle_key="frejas v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="840" x="13.00562" y="55.7538" zone_id="246 3">
+	</activity>
+	<activity activity_id="52551" activity_relevance_key="0" activity_work_length_key="" address="Bankv?gen|L?ddek?pinge||246 31||" bundle_key="bankv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="600" x="13.01499" y="55.75813" zone_id="246 3">
+	</activity>
+	<activity activity_id="52569" activity_relevance_key="0" activity_work_length_key="" address="Brantings v?g|L?ddek?pinge||246 31||" bundle_key="brantings v?g" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="180" x="13.0124" y="55.756" zone_id="246 3">
+	</activity>
+	<activity activity_id="52574" activity_relevance_key="0" activity_work_length_key="" address="V?ngav?gen|L?ddek?pinge||246 31||" bundle_key="v?ngav?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="13.01336" y="55.75546" zone_id="246 3">
+	</activity>
+	<activity activity_id="52672" activity_relevance_key="0" activity_work_length_key="" address="Pr?mv?gen|L?ddek?pinge||246 31||" bundle_key="pr?mv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="270" x="13.01942" y="55.75834" zone_id="246 3">
+	</activity>
+	<activity activity_id="52673" activity_relevance_key="0" activity_work_length_key="" address="Noaks gr?nd|L?ddek?pinge||246 35||" bundle_key="noaks gr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.01623" y="55.76221" zone_id="246 3">
+	</activity>
+	<activity activity_id="52682" activity_relevance_key="0" activity_work_length_key="" address="Julius gr?nd|L?ddek?pinge||246 35||" bundle_key="julius gr?nd" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="240" x="13.01599" y="55.76262" zone_id="246 3">
+	</activity>
+	<activity activity_id="52728" activity_relevance_key="0" activity_work_length_key="" address="Furirv?gen|L?ddek?pinge||246 31||" bundle_key="furirv?gen" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="60" x="13.01837" y="55.75841" zone_id="246 3">
+	</activity>
+	<activity activity_id="53099" activity_relevance_key="0" activity_work_length_key="" address="Vikh?gsudde|L?ddek?pinge||246 32||" bundle_key="vikh?gsudde" calc_travel="1" default_work_length="30" min_segment_len="30" non_assignment_cost="12000.00" overdue_cost="50.00" work_length="30" x="12.95654" y="55.73104" zone_id="246 3">
+	</activity>
+
+	<activity activity_id="108917" bundle_key="ängavägen" provider_id="4" workday_id="9" workday_bind="1" eta_hint="13800" work_length="30" default_work_length="30" zone_id="261 9" x="13.02222325" y="55.84937759" address="Ängavägen|Annelöv||261 94||" calc_travel="1" activity_work_length_key="" activity_relevance_key="1" overdue_cost="25.00" non_assignment_cost="1200.00">
+		<sw_arr>
+			<sw sw_start="13800" sw_end="13920" unacceptable_overdue="480"/>
+		</sw_arr>
+	</activity>
+	<activity activity_id="108918" bundle_key="billebergavägen" provider_id="10" workday_id="9" workday_bind="1" eta_hint="13800" work_length="30" default_work_length="30" zone_id="261 9" x="13.00655944" y="55.85265893" address="Billebergavägen|Annelöv||261 94||" calc_travel="1" activity_work_length_key="" activity_relevance_key="1" overdue_cost="25.00" non_assignment_cost="1200.00">
+		<sw_arr>
+			<sw sw_start="13800" sw_end="13920" unacceptable_overdue="480"/>
+		</sw_arr>
+	</activity>
+	<activity activity_id="108919" bundle_key="billebergavägen" provider_id="47" workday_id="9" workday_bind="1" eta_hint="13800" work_length="30" default_work_length="30" zone_id="261 9" x="13.00760843" y="55.85151546" address="Billebergavägen|Annelöv||261 94||" calc_travel="1" activity_work_length_key="" activity_relevance_key="1" overdue_cost="25.00" non_assignment_cost="1200.00">
+		<sw_arr>
+			<sw sw_start="13800" sw_end="13920" unacceptable_overdue="480"/>
+		</sw_arr>
+	</activity>
+	<activity activity_id="108920" bundle_key="billebergavägen" provider_id="48" workday_id="9" workday_bind="1" eta_hint="13800" work_length="30" default_work_length="30" zone_id="261 9" x="13.00798731" y="55.85133192" address="Billebergavägen|Annelöv||261 94||" calc_travel="1" activity_work_length_key="" activity_relevance_key="1" overdue_cost="25.00" non_assignment_cost="1200.00">
+		<sw_arr>
+			<sw sw_start="13800" sw_end="13920" unacceptable_overdue="480"/>
+		</sw_arr>
+	</activity>
+
+	<activity activity_id="4225481" workday_id="0" workday_bind="0" sla_start="-1105" default_work_length="20" calc_travel="1" activity_work_length_key="" activity_relevance_key="0" overdue_cost="1.00" non_assignment_cost="15000.00">
+	</activity>
+
+	<activity activity_id="4225482" workday_id="0" workday_bind="0" sla_start="-1105" default_work_length="20" calc_travel="1" activity_work_length_key="" activity_relevance_key="0" overdue_cost="1.00" non_assignment_cost="15000.00">
+	</activity>
+
+	<activity activity_id="4225483" workday_id="0" workday_bind="0" sla_start="-1105" default_work_length="39" calc_travel="1" activity_work_length_key="" activity_relevance_key="0" overdue_cost="1.00" non_assignment_cost="15000.00">
+	</activity>
+
+	<activity activity_id="4225484" workday_id="0" workday_bind="0" sla_start="-1105" default_work_length="39" calc_travel="1" activity_work_length_key="" activity_relevance_key="0" overdue_cost="1.00" non_assignment_cost="15000.00">
+	</activity>
+
+	</activity_data>
+<provider_data>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="4" provider_type="technician" provider_work_length_key="4" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="1140" workday_end_soft="1080" workday_id="0" workday_start="540" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="2580" workday_end_soft="2520" workday_id="1" workday_start="1980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="4020" workday_end_soft="3960" workday_id="2" workday_start="3420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="5460" workday_end_soft="5400" workday_id="3" workday_start="4860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="6900" workday_end_soft="6840" workday_id="4" workday_start="6300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="8340" workday_end_soft="8280" workday_id="5" workday_start="7740" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="9780" workday_end_soft="9720" workday_id="6" workday_start="9180" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="11220" workday_end_soft="11160" workday_id="7" workday_start="10620" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="12660" workday_end_soft="12600" workday_id="8" workday_start="12060" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="14100" workday_end_soft="14040" workday_id="9" workday_start="13500" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="15540" workday_end_soft="15480" workday_id="10" workday_start="14940" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="16980" workday_end_soft="16920" workday_id="11" workday_start="16380" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="18420" workday_end_soft="18360" workday_id="12" workday_start="17820" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="19860" workday_end_soft="19800" workday_id="13" workday_start="19260" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="8" provider_type="technician" provider_work_length_key="8" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="1140" workday_end_soft="1080" workday_id="0" workday_start="540" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="2580" workday_end_soft="2520" workday_id="1" workday_start="1980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="4020" workday_end_soft="3960" workday_id="2" workday_start="3420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="5460" workday_end_soft="5400" workday_id="3" workday_start="4860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="6900" workday_end_soft="6840" workday_id="4" workday_start="6300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="11220" workday_end_soft="11160" workday_id="7" workday_start="10620" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="12660" workday_end_soft="12600" workday_id="8" workday_start="12060" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="14100" workday_end_soft="14040" workday_id="9" workday_start="13500" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="15540" workday_end_soft="15480" workday_id="10" workday_start="14940" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="16980" workday_end_soft="16920" workday_id="11" workday_start="16380" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="9" provider_type="technician" provider_work_length_key="9" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="1140" workday_end_soft="1080" workday_id="0" workday_start="540" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="2580" workday_end_soft="2520" workday_id="1" workday_start="1980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="4020" workday_end_soft="3960" workday_id="2" workday_start="3420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="5460" workday_end_soft="5400" workday_id="3" workday_start="4860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="6900" workday_end_soft="6840" workday_id="4" workday_start="6300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="11220" workday_end_soft="11160" workday_id="7" workday_start="10620" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="12660" workday_end_soft="12600" workday_id="8" workday_start="12060" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="14100" workday_end_soft="14040" workday_id="9" workday_start="13500" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="15540" workday_end_soft="15480" workday_id="10" workday_start="14940" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="0" start_travel_in_workday="false" workday_end_hard="16980" workday_end_soft="16920" workday_id="11" workday_start="16380" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="10" provider_type="technician" provider_work_length_key="10" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="1140" workday_end_soft="1080" workday_id="0" workday_start="540" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="2580" workday_end_soft="2520" workday_id="1" workday_start="1980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="4020" workday_end_soft="3960" workday_id="2" workday_start="3420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="5460" workday_end_soft="5400" workday_id="3" workday_start="4860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="6900" workday_end_soft="6840" workday_id="4" workday_start="6300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="11220" workday_end_soft="11160" workday_id="7" workday_start="10620" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="12660" workday_end_soft="12600" workday_id="8" workday_start="12060" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="14100" workday_end_soft="14040" workday_id="9" workday_start="13500" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="15540" workday_end_soft="15480" workday_id="10" workday_start="14940" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="16980" workday_end_soft="16920" workday_id="11" workday_start="16380" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="47" provider_type="technician" provider_work_length_key="47" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="1140" workday_end_soft="1080" workday_id="0" workday_start="540" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="2580" workday_end_soft="2520" workday_id="1" workday_start="1980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="4020" workday_end_soft="3960" workday_id="2" workday_start="3420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="5460" workday_end_soft="5400" workday_id="3" workday_start="4860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="6900" workday_end_soft="6840" workday_id="4" workday_start="6300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="11220" workday_end_soft="11160" workday_id="7" workday_start="10620" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="12660" workday_end_soft="12600" workday_id="8" workday_start="12060" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="14100" workday_end_soft="14040" workday_id="9" workday_start="13500" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="15540" workday_end_soft="15480" workday_id="10" workday_start="14940" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="16980" workday_end_soft="16920" workday_id="11" workday_start="16380" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="48" provider_type="technician" provider_work_length_key="48" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="1140" workday_end_soft="1080" workday_id="0" workday_start="540" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="2580" workday_end_soft="2520" workday_id="1" workday_start="1980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="4020" workday_end_soft="3960" workday_id="2" workday_start="3420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="5460" workday_end_soft="5400" workday_id="3" workday_start="4860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="6900" workday_end_soft="6840" workday_id="4" workday_start="6300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="11220" workday_end_soft="11160" workday_id="7" workday_start="10620" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="12660" workday_end_soft="12600" workday_id="8" workday_start="12060" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="14100" workday_end_soft="14040" workday_id="9" workday_start="13500" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="15540" workday_end_soft="15480" workday_id="10" workday_start="14940" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="16980" workday_end_soft="16920" workday_id="11" workday_start="16380" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="60" provider_type="technician" provider_work_length_key="60" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="1500" workday_end_soft="1440" workday_id="0" workday_start="900" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="2940" workday_end_soft="2880" workday_id="1" workday_start="2340" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="4380" workday_end_soft="4320" workday_id="2" workday_start="3780" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="5820" workday_end_soft="5760" workday_id="3" workday_start="5220" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="7260" workday_end_soft="7200" workday_id="4" workday_start="6660" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="11580" workday_end_soft="11520" workday_id="7" workday_start="10980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="13020" workday_end_soft="12960" workday_id="8" workday_start="12420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="14460" workday_end_soft="14400" workday_id="9" workday_start="13860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="15900" workday_end_soft="15840" workday_id="10" workday_start="15300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="17340" workday_end_soft="17280" workday_id="11" workday_start="16740" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="61" provider_type="technician" provider_work_length_key="61" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="1500" workday_end_soft="1440" workday_id="0" workday_start="900" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="2940" workday_end_soft="2880" workday_id="1" workday_start="2340" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="4380" workday_end_soft="4320" workday_id="2" workday_start="3780" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="5820" workday_end_soft="5760" workday_id="3" workday_start="5220" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="7260" workday_end_soft="7200" workday_id="4" workday_start="6660" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="11580" workday_end_soft="11520" workday_id="7" workday_start="10980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="13020" workday_end_soft="12960" workday_id="8" workday_start="12420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="14460" workday_end_soft="14400" workday_id="9" workday_start="13860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="15900" workday_end_soft="15840" workday_id="10" workday_start="15300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="17340" workday_end_soft="17280" workday_id="11" workday_start="16740" />
+		</workday_arr>
+	</provider>
+	<provider overtime_hard_cost="7.82760589" overtime_soft_cost="3.91380295" provider_id="62" provider_type="technician" provider_work_length_key="62" travel_cost="14.58741159" unacceptable_travel_distance="0.00" unacceptable_travel_time="30" waiting_cost="0.00" work_cost="1.06780019" work_length_fallback_coeff="1.00">
+		<workday_arr>
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="1500" workday_end_soft="1440" workday_id="0" workday_start="900" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="2940" workday_end_soft="2880" workday_id="1" workday_start="2340" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="4380" workday_end_soft="4320" workday_id="2" workday_start="3780" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="5820" workday_end_soft="5760" workday_id="3" workday_start="5220" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="7260" workday_end_soft="7200" workday_id="4" workday_start="6660" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="11580" workday_end_soft="11520" workday_id="7" workday_start="10980" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="13020" workday_end_soft="12960" workday_id="8" workday_start="12420" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="14460" workday_end_soft="14400" workday_id="9" workday_start="13860" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="15900" workday_end_soft="15840" workday_id="10" workday_start="15300" />
+			<workday final_travel_in_stop_time="false" final_travel_in_workday="false" provider_relevance_key="1" start_travel_in_workday="false" workday_end_hard="17340" workday_end_soft="17280" workday_id="11" workday_start="16740" />
+		</workday_arr>
+	</provider>
+</provider_data>
+<activity_link_data>
+	<activity_link from_activity_id="4225482" to_activity_id="4225481" type="start-start"/>
+	<activity_link from_activity_id="4225484" to_activity_id="4225483" type="end-start"/>
+
+	<activity_link from_activity_id="4225482" to_activity_id="48538" type="start-start"/>
+	<activity_link from_activity_id="4225483" to_activity_id="48623" type="end-start"/>
+	<activity_link from_activity_id="4225481" to_activity_id="48646" type="begin-start"/>
+
+
+	<activity_link from_activity_id="108917" to_activity_id="48538" type="start-start"/>
+	<activity_link from_activity_id="48538" to_activity_id="108918" type="end-start"/>
+	<activity_link from_activity_id="108919" to_activity_id="48533" type="begin-start"/>
+</activity_link_data>
+<relevance_data>
+	<relevance activity_relevance_key="0" cost="3.00" provider_relevance_key="0" />
+	<relevance activity_relevance_key="0" cost="3.00" provider_relevance_key="1" />
+
+</relevance_data>
+  <work_length_data/>
+  <travel_data/>
+</input_data>
