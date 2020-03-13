@@ -7,11 +7,16 @@
 <body>
 <form id="producer-form" enctype="multipart/form-data" action="/produce/file" method="post">
     <input type="file" name="file"/>
+    <label for="topic">
+        Topic:
+        <input id="topic" type="text" name="topic" value="test-topic"/>
+    </label>
     <label for="count">
         Count:
-        <input id="count" type="text" name="count"/>
+        <input id="count" type="text" name="count" value="1"/>
     </label>
     <input type="submit" value="upload"/>
 </form>
+<h3>Error: {{.ErrorMessage}}</h3>
 </body>
 </html>

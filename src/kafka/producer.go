@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-func ProduceMessage(file multipart.File, count int) {
+func ProduceMessage(file multipart.File, count int, topic string) {
 	config := sarama.NewConfig()
 	config.Version = sarama.V0_11_0_2
 	config.Producer.RequiredAcks = sarama.WaitForAll
@@ -41,7 +41,6 @@ func ProduceMessage(file multipart.File, count int) {
 	}
 
 	fmt.Println("File size:", len(bufFile.Bytes()))
-	topic := "routing-input"
 	msg := &sarama.ProducerMessage{
 		Topic: topic,
 		Value: sarama.ByteEncoder(bufFile.Bytes()),
@@ -61,11 +60,20 @@ func ProduceMessage(file multipart.File, count int) {
 		},
 	}
 
-	for i := 0; i < count; i++ {
-		partition, offset, err := producer.SendMessage(msg)
-		if err != nil {
-			panic(err)
+	if count > 1 {
+		for i := 0; i < count; i++ {
+			sendMessage(msg, producer, topic)
 		}
-		fmt.Printf("Message is stored in topic(%s)/partition(%d)/offset(%d)\n", topic, partition, offset)
+	} else {
+		sendMessage(msg, producer, topic)
 	}
+
+}
+
+func sendMessage(msg *sarama.ProducerMessage, producer sarama.SyncProducer, topic string) {
+	partition, offset, err := producer.SendMessage(msg)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Printf("Message is stored in topic(%s)/partition(%d)/offset(%d)\n", topic, partition, offset)
 }
