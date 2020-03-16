@@ -6,10 +6,24 @@ import (
 	"log"
 	"net/http"
 	"strconv"
+	"strings"
 )
 
 type Error struct {
 	ErrorMessage string
+}
+
+var isConfigured = false
+
+func ConfigHandler(handler http.HandlerFunc) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		if !isConfigured {
+			log.Println("Service isn't configured")
+			http.Redirect(w, r, "/config", http.StatusSeeOther)
+		} else {
+			handler.ServeHTTP(w, r)
+		}
+	}
 }
 
 func CommandPage(writer http.ResponseWriter, request *http.Request) {
@@ -66,6 +80,32 @@ func ProduceFile(writer http.ResponseWriter, request *http.Request) {
 	}
 
 	kafka.ProduceMessage(file, int(parseInt), topic)
+	http.Redirect(writer, request, "/", http.StatusSeeOther)
+}
+
+func ConfigurationPage(w http.ResponseWriter, r *http.Request) {
+	t, err := template.ParseFiles("./src/page/configuration.html")
+	if err != nil {
+		log.Print("template parsing error: ", err)
+	}
+
+	err = t.Execute(w, nil)
+	if err != nil {
+		log.Println("template executing error:", err)
+	}
+}
+
+func Configuration(writer http.ResponseWriter, request *http.Request) {
+	err := request.ParseForm()
+	checkError(err)
+
+	brokerServers := request.PostFormValue("broker_servers")
+	kafka.BrokerList = strings.Split(brokerServers, ",")
+
+	clientId := request.PostFormValue("clientId")
+	kafka.ClientId = clientId
+
+	isConfigured = true
 	http.Redirect(writer, request, "/", http.StatusSeeOther)
 }
 

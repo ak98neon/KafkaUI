@@ -12,17 +12,19 @@ import (
 	"time"
 )
 
-func ProduceMessage(file multipart.File, count int, topic string) {
-	config := sarama.NewConfig()
-	config.Version = sarama.V0_11_0_2
-	config.Producer.RequiredAcks = sarama.WaitForAll
-	config.Producer.Retry.Max = 5
-	config.Producer.MaxMessageBytes = 304857600
-	config.Producer.Return.Successes = true
-	config.ClientID = "example.clientkafka1"
+var ProducerConfig = sarama.NewConfig()
+var BrokerList []string
+var ClientId string
 
-	brokers := []string{"localhost:9092"}
-	producer, err := sarama.NewSyncProducer(brokers, config)
+func ProduceMessage(file multipart.File, count int, topic string) {
+	ProducerConfig.Version = sarama.V0_11_0_2
+	ProducerConfig.Producer.RequiredAcks = sarama.WaitForAll
+	ProducerConfig.Producer.Retry.Max = 5
+	ProducerConfig.Producer.MaxMessageBytes = 304857600
+	ProducerConfig.Producer.Return.Successes = true
+	ProducerConfig.ClientID = ClientId
+
+	producer, err := sarama.NewSyncProducer(BrokerList, ProducerConfig)
 	if err != nil {
 		// Should not reach here
 		panic(err)
