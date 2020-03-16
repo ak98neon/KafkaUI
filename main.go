@@ -12,7 +12,7 @@ func main() {
 	http.HandleFunc("/config/parse", web.Configuration)
 
 	commandPage := http.HandlerFunc(web.CommandPage)
-	producedFilePage := http.HandlerFunc(web.ProduceFile)
+	producedFilePage := http.HandlerFunc(web.ProduceMessage)
 
 	http.HandleFunc("/", web.ConfigHandler(commandPage))
 	http.HandleFunc("/produce/file", web.ConfigHandler(producedFilePage))

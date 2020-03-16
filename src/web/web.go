@@ -41,8 +41,11 @@ func CommandPage(writer http.ResponseWriter, request *http.Request) {
 	}
 }
 
-func ProduceFile(writer http.ResponseWriter, request *http.Request) {
+func ProduceMessage(writer http.ResponseWriter, request *http.Request) {
 	var errMsg string
+	//var isFile = true
+	//var inputMessage string
+
 	err := request.ParseMultipartForm(32 << 20)
 	if err != nil {
 		log.Println("Cannot parse multipart form: ", err)
@@ -50,20 +53,20 @@ func ProduceFile(writer http.ResponseWriter, request *http.Request) {
 		return
 	}
 
+	err = request.ParseForm()
+	checkError(err)
+
 	file, _, err := request.FormFile("file")
 	if err != nil {
 		errMsg += "No such file"
 		log.Println(errMsg)
-		http.Redirect(writer, request, "/?error="+errMsg, http.StatusSeeOther)
-		return
+		//isFile = false
+		//inputMessage = request.PostFormValue("input-message")
 	}
 
 	if file != nil {
 		defer file.Close()
 	}
-
-	err = request.ParseForm()
-	checkError(err)
 
 	countValue := request.PostFormValue("count")
 	parseInt, err := strconv.ParseInt(countValue, 10, 64)
@@ -79,11 +82,15 @@ func ProduceFile(writer http.ResponseWriter, request *http.Request) {
 		return
 	}
 
+	//if isFile {
 	kafka.ProduceMessage(file, int(parseInt), topic)
+	//} else {
+	//	kafka.ProduceString(inputMessage, int(parseInt), topic)
+	//}
 	http.Redirect(writer, request, "/", http.StatusSeeOther)
 }
 
-func ConfigurationPage(w http.ResponseWriter, r *http.Request) {
+func ConfigurationPage(w http.ResponseWriter, _ *http.Request) {
 	t, err := template.ParseFiles("./src/page/configuration.html")
 	if err != nil {
 		log.Print("template parsing error: ", err)
@@ -99,11 +106,16 @@ func Configuration(writer http.ResponseWriter, request *http.Request) {
 	err := request.ParseForm()
 	checkError(err)
 
-	brokerServers := request.PostFormValue("broker_servers")
+	brokerServers := request.FormValue("broker_servers")
 	kafka.BrokerList = strings.Split(brokerServers, ",")
 
-	clientId := request.PostFormValue("clientId")
+	clientId := request.FormValue("clientId")
 	kafka.ClientId = clientId
+
+	if brokerServers == "" || clientId == "" {
+		http.Redirect(writer, request, "/config", http.StatusSeeOther)
+		return
+	}
 
 	isConfigured = true
 	http.Redirect(writer, request, "/", http.StatusSeeOther)

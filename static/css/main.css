@@ -10,12 +10,23 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 20px;
-    height: 200px;
-    width: 200px;
-    max-width: 200px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    max-width: 400px;
     background: #e0a944;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+#producer-form .config-block {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#producer-form #producer-form-header {
+    text-align: center;
 }
