@@ -43,8 +43,8 @@ func CommandPage(writer http.ResponseWriter, request *http.Request) {
 
 func ProduceMessage(writer http.ResponseWriter, request *http.Request) {
 	var errMsg string
-	//var isFile = true
-	//var inputMessage string
+	var isFile = true
+	var inputMessage string
 
 	err := request.ParseMultipartForm(32 << 20)
 	if err != nil {
@@ -58,10 +58,13 @@ func ProduceMessage(writer http.ResponseWriter, request *http.Request) {
 
 	file, _, err := request.FormFile("file")
 	if err != nil {
-		errMsg += "No such file"
-		log.Println(errMsg)
-		//isFile = false
-		//inputMessage = request.PostFormValue("input-message")
+		isFile = false
+		inputMessage = request.PostFormValue("input-message")
+		if inputMessage == "" {
+			errMsg += "No such file or string message"
+			log.Println(errMsg)
+			http.Redirect(writer, request, "/?error="+errMsg, http.StatusSeeOther)
+		}
 	}
 
 	if file != nil {
@@ -82,11 +85,14 @@ func ProduceMessage(writer http.ResponseWriter, request *http.Request) {
 		return
 	}
 
-	//if isFile {
-	kafka.ProduceMessage(file, int(parseInt), topic)
-	//} else {
-	//	kafka.ProduceString(inputMessage, int(parseInt), topic)
-	//}
+	if isFile {
+		osFile := MultipartFileToOsFile(file)
+		fromFile := kafka.PrepareMessageFromFile(osFile, topic)
+		kafka.ProduceMessage(fromFile, int(parseInt), topic)
+	} else {
+		fromString := kafka.PrepareMessageFromString(inputMessage, topic)
+		kafka.ProduceMessage(fromString, int(parseInt), topic)
+	}
 	http.Redirect(writer, request, "/", http.StatusSeeOther)
 }
 

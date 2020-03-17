@@ -4,10 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/Shopify/sarama"
-	"io"
-	"log"
 	"math/rand"
-	"mime/multipart"
 	"strconv"
 	"time"
 )
@@ -16,7 +13,52 @@ var ProducerConfig = sarama.NewConfig()
 var BrokerList []string
 var ClientId string
 
-func ProduceMessage(file multipart.File, count int, topic string) {
+func PrepareMessageFromFile(buffer *bytes.Buffer, topic string) *sarama.ProducerMessage {
+	fmt.Println("File size:", len(buffer.Bytes()))
+	msg := &sarama.ProducerMessage{
+		Topic: topic,
+		Value: sarama.ByteEncoder(buffer.Bytes()),
+		Headers: []sarama.RecordHeader{
+			{
+				Key:   []byte("ORIG-TIME"),
+				Value: []byte(strconv.Itoa(int(time.Now().Unix()))),
+			},
+			{
+				Key:   []byte("ORIG-TTL"),
+				Value: []byte(strconv.Itoa(rand.Int())),
+			},
+			{
+				Key:   []byte("TRACE-ID"),
+				Value: []byte(strconv.Itoa(rand.Int())),
+			},
+		},
+	}
+	return msg
+}
+
+func PrepareMessageFromString(message string, topic string) *sarama.ProducerMessage {
+	msg := &sarama.ProducerMessage{
+		Topic: topic,
+		Value: sarama.ByteEncoder(message),
+		Headers: []sarama.RecordHeader{
+			{
+				Key:   []byte("ORIG-TIME"),
+				Value: []byte(strconv.Itoa(int(time.Now().Unix()))),
+			},
+			{
+				Key:   []byte("ORIG-TTL"),
+				Value: []byte(strconv.Itoa(rand.Int())),
+			},
+			{
+				Key:   []byte("TRACE-ID"),
+				Value: []byte(strconv.Itoa(rand.Int())),
+			},
+		},
+	}
+	return msg
+}
+
+func ProduceMessage(msg *sarama.ProducerMessage, count int, topic string) {
 	ProducerConfig.Version = sarama.V0_11_0_2
 	ProducerConfig.Producer.RequiredAcks = sarama.WaitForAll
 	ProducerConfig.Producer.Retry.Max = 5
@@ -37,31 +79,6 @@ func ProduceMessage(file multipart.File, count int, topic string) {
 		}
 	}()
 
-	bufFile := bytes.NewBuffer(nil)
-	if _, err = io.Copy(bufFile, file); err != nil {
-		log.Println(err)
-	}
-
-	fmt.Println("File size:", len(bufFile.Bytes()))
-	msg := &sarama.ProducerMessage{
-		Topic: topic,
-		Value: sarama.ByteEncoder(bufFile.Bytes()),
-		Headers: []sarama.RecordHeader{
-			{
-				Key:   []byte("ORIG-TIME"),
-				Value: []byte(strconv.Itoa(int(time.Now().Unix()))),
-			},
-			{
-				Key:   []byte("ORIG-TTL"),
-				Value: []byte(strconv.Itoa(rand.Int())),
-			},
-			{
-				Key:   []byte("TRACE-ID"),
-				Value: []byte(strconv.Itoa(rand.Int())),
-			},
-		},
-	}
-
 	if count > 1 {
 		for i := 0; i < count; i++ {
 			sendMessage(msg, producer, topic)
@@ -69,7 +86,6 @@ func ProduceMessage(file multipart.File, count int, topic string) {
 	} else {
 		sendMessage(msg, producer, topic)
 	}
-
 }
 
 func sendMessage(msg *sarama.ProducerMessage, producer sarama.SyncProducer, topic string) {
