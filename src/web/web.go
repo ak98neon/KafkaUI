@@ -13,11 +13,16 @@ type Error struct {
 	ErrorMessage string
 }
 
-var isConfigured = false
+type Response struct {
+	KafkaInfo kafka.Info
+	Error     Error
+}
+
+var IsConfigured = false
 
 func ConfigHandler(handler http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		if !isConfigured {
+		if !IsConfigured {
 			log.Println("Service isn't configured")
 			http.Redirect(w, r, "/config", http.StatusSeeOther)
 		} else {
@@ -35,7 +40,8 @@ func CommandPage(writer http.ResponseWriter, request *http.Request) {
 		log.Print("template parsing error: ", err)
 	}
 
-	err = t.Execute(writer, Error{ErrorMessage: errorMsg})
+	info := kafka.GetKafkaInfo()
+	err = t.Execute(writer, Response{KafkaInfo: info, Error: Error{ErrorMessage: errorMsg}})
 	if err != nil {
 		log.Println("template executing error:", err)
 	}
@@ -123,7 +129,7 @@ func Configuration(writer http.ResponseWriter, request *http.Request) {
 		return
 	}
 
-	isConfigured = true
+	IsConfigured = true
 	http.Redirect(writer, request, "/", http.StatusSeeOther)
 }
 

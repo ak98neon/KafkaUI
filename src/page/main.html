@@ -25,6 +25,10 @@
     </div>
     <input type="submit" value="Send"/>
 </form>
-<h3>Error: {{.ErrorMessage}}</h3>
+<h3>Error: {{.Error.ErrorMessage}}</h3>
+<h4>Brokers: {{.KafkaInfo.Brokers}}</h4>
+<h4>Topics: {{.KafkaInfo.Topics}}</h4>
+<h4>CountTopics: {{.KafkaInfo.CountTopics}}</h4>
+<h4>CountPartitions: {{.KafkaInfo.CountPartitions}}</h4>
 </body>
 </html>

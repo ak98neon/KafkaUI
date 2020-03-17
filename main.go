@@ -16,5 +16,9 @@ func main() {
 
 	http.HandleFunc("/", web.ConfigHandler(commandPage))
 	http.HandleFunc("/produce/file", web.ConfigHandler(producedFilePage))
+
+	//Rest
+	restKafkaInfo := http.HandlerFunc(web.GetKafkaInfo)
+	http.HandleFunc("/kafka/info", web.ConfigHandlerRest(restKafkaInfo))
 	log.Fatal(http.ListenAndServe(":9100", nil))
 }
