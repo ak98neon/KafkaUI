@@ -1,8 +1,8 @@
 package web
 
 import (
-	"../kafka"
 	"encoding/json"
+	"github.com/ak98neon/KafkaUI/src/kafka"
 	"log"
 	"net/http"
 )

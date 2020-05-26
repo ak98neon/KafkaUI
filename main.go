@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./src/web"
+	"github.com/ak98neon/KafkaUI/src/web"
 	"log"
 	"net/http"
 )
@@ -20,5 +20,5 @@ func main() {
 	//Rest
 	restKafkaInfo := http.HandlerFunc(web.GetKafkaInfo)
 	http.HandleFunc("/kafka/info", web.ConfigHandlerRest(restKafkaInfo))
-	log.Fatal(http.ListenAndServe(":9100", nil))
+	log.Fatal(http.ListenAndServe(":9110", nil))
 }
