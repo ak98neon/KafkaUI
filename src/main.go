@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	http.HandleFunc("/config", web.ConfigurationPage)
 	http.HandleFunc("/config/parse", web.Configuration)

@@ -1,7 +1,6 @@
-FROM golang:1.8.5-jessie
+FROM scratch
 
-WORKDIR /go/src/app
+EXPOSE 9110
 
-ADD src src
-
-CMD ["go", "run", "src/main.go"]
+ADD bin/main /
+CMD ["/main"]
