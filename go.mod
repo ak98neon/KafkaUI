@@ -6,7 +6,7 @@ require (
 	github.com/Shopify/sarama v1.26.4
 	github.com/gobuffalo/envy v1.9.0 // indirect
 	github.com/gobuffalo/packr v1.30.1
-	github.com/gobuffalo/packr/v2 v2.8.0 // indirect
+	github.com/gobuffalo/packr/v2 v2.8.0
 	github.com/karrick/godirwalk v1.15.6 // indirect
 	github.com/rogpeppe/go-internal v1.6.0 // indirect
 	github.com/sirupsen/logrus v1.6.0 // indirect
